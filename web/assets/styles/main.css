@@ -15,7 +15,7 @@ body
   width: 950px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
   background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -50,6 +50,8 @@ nav
   margin-top: 1px;
   background-color: #060909;
   padding: 2px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 li a
 {
@@ -70,13 +72,17 @@ main
 {
   float: left;
   width: 640px;
+  background: radial-gradient(#f0f0f0, #060909);
+  border-top-left-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 1px;
 
 }
 
 section
 {
-  color: #590404;
-  background-color: #f0f0f0;
+  color: #ffffff;
+  background-color: #282D36;
   font-size: 18px;
   font-family: sans-serif;
   padding-left: 5px;
@@ -86,9 +92,13 @@ section
 article
 {
   text-align: center;
-  color: orange;
+  color:  #590404;
+  border-radius: 5px;
   background-color: #c0c0c0;
+  font-style: italic;
 }
+
+
 aside
 {
 
@@ -97,7 +107,8 @@ aside
   color: #ffffff;
   background-color: #060909;
   width: 260px;
-  margin-top: 15px;
+  border-top-right-radius: 10px;
+  margin-top: 5px;
   margin-bottom: 10px;
   padding: 20px;
 }
@@ -109,6 +120,23 @@ footer
   width: 950px;
   text-align: center;
   background-color: #060909;
-
   color: #ffffff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+
+}
+
+.social_icons
+{
+  margin-top: 10px;
+  border: 10px;
+  background-color: #060909;
+
+}
+
+.social_icons:hover
+{
+  border: 15px;
+  background-color: aqua;
 }
