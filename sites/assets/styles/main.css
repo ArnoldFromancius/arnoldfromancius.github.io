@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+body
+{
+  width: auto;
+  font-size: 140%;
+}
+
+nav
+{
+  height: 200px;
+
+  margin-bottom: 1px;
+  border-bottom-left-radius: 1%;
+  border-bottom-right-radius: 1%;
+  background: linear-gradient(  #011509, #8AEAB0);
+  text-align: center;
+
+}
+
+nav a {  color: #C7F803; }
+
+.org_name
+{
+  color: blue;
+  font-weight: bold;
+  font-size: 150%;
+  text-align: center;
+  background-color: #CEF5DE;
+
+}
+
+article
+{
+  text-align: center;
+  width: auto;
+  background: radial-gradient(#1DE46C, #00ff00);
+}
+
+section
+{  background-color: #E7F7ED; }
+
+.advert
+{
+  width: auto;
+  height: 230px;
+  text-align: center;
+  color: #ffffff;
+  background: linear-gradient(to right, #2505A5, #8067E5)
+}
+.advert a{ color: #C7F803; }
+
+.ad_button
+{
+
+  margin: auto;
+  width: 150px;
+  height: 30px;
+  border-radius: 50px;
+  padding: 5px;
+  background-color: #ED1095;
+
+}
+.ad_button:hover
+{
+  background-color: #F776C3;
+
+ }
+
+ footer
+ {
+   color: maroon;
+   text-align: center;
+   font-style: normal;
+   font-size: 17px;
+ }
+ .social_icons
+ {
+   display: inline;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border: 10px;
+   background-color: #ffffff;
+ }
+
+ .social_icons:hover
+ {
+   border: 15px;
+   background-color: aqua;
+ }

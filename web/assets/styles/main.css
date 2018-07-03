@@ -89,6 +89,7 @@ section
   padding-right: 5px;
 }
 
+
 article
 {
   text-align: center;
@@ -98,6 +99,14 @@ article
   font-style: italic;
 }
 
+section h2
+{
+  color: #00f0ff;
+}
+article h2
+{
+  color:  aqua;
+}
 
 aside
 {

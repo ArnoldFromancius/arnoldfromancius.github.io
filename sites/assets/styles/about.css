@@ -1,0 +1,33 @@
+body
+{
+  width: auto;
+  font-size: 140%;
+
+}
+
+nav
+{
+  text-align: center;
+}
+
+main
+{
+background: linear-gradient(  #011509, #8AEAB0);
+}
+
+.org_name
+{
+  margin-top: 10%;
+  width: auto;
+  border-top-left-radius:30%;
+  border-top-right-radius:30%;
+  border-bottom-left-radius:30%;
+  border-bottom-right-radius:30%; 
+
+  color: blue;
+  font-weight: bold;
+  font-size: 150%;
+  text-align: center;
+  background-color: #CEF5DE;
+
+}
