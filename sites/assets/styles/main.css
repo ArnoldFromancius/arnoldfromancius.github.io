@@ -9,12 +9,12 @@ body
 
 nav
 {
-  height: 200px;
-
+  height: 150px;
   margin-bottom: 1px;
   border-bottom-left-radius: 1%;
   border-bottom-right-radius: 1%;
   background: linear-gradient(  #011509, #8AEAB0);
+  /*background-color: #0f0f0f;*/
   text-align: center;
 
 }
@@ -29,6 +29,18 @@ nav a {  color: #C7F803; }
   text-align: center;
   background-color: #CEF5DE;
 
+}
+
+.logo
+{
+margin-left: 32%;
+}
+
+.logo_bg
+{
+  height: auto;
+  background-color: #0f0f0f;
+  align-self: center;
 }
 
 article
