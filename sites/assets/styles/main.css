@@ -11,8 +11,8 @@ nav
 {
   height: 150px;
   margin-bottom: 1px;
-  border-bottom-left-radius: 1%;
-  border-bottom-right-radius: 1%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
   background: linear-gradient(  #011509, #8AEAB0);
   /*background-color: #0f0f0f;*/
   text-align: center;
