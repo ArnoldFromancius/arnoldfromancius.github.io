@@ -1,25 +1,28 @@
 @charset "UTF-8";
-
-
 body
 {
-  width: auto;
-  font-size: 140%;
+  width: 1500px;
+  display: inline;
+  background-color: #fff;
 }
 
 nav
 {
-  height: 150px;
-  margin-bottom: 1px;
-  border-top-left-radius: 10%;
-  border-top-right-radius: 10%;
-  background: linear-gradient(  #011509, #8AEAB0);
-  /*background-color: #0f0f0f;*/
-  text-align: center;
+  height: 50px;
+  width: auto;
 
+  background-color: #0f0f0f;
+  text-align: center;
 }
 
-nav a {  color: #C7F803; }
+
+nav a
+{
+  color: #C7F803;
+  text-shadow: #000000;
+  font-size: 30px;
+}
+
 
 .org_name
 {
@@ -28,34 +31,88 @@ nav a {  color: #C7F803; }
   font-size: 150%;
   text-align: center;
   background-color: #CEF5DE;
-
 }
 
 .logo
 {
-margin-left: 32%;
+  margin: x;
+  margin-bottom: 0px;
+  width: 1295px;
+
 }
 
-.logo_bg
-{
-  height: auto;
-  background-color: #99e265;
-  align-self: center;
-}
+
 
 article
 {
   text-align: center;
   width: auto;
-  background: radial-gradient(#1DE46C, #00ff00);
+  height: 50px;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #032D38;
 }
 
 section
-{  background-color: #E7F7ED; }
+{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #E7F7ED;
+  text-align: center;
+ }
 
+p {  color: #0000ff;  font-size: 150%; }
+
+main
+{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-left: 10px;
+  width: 900px;
+  float: left;
+}
+
+
+aside
+{
+  margin-top: 27px;
+  margin-right: 10px;
+  float: right;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-color: #000000;
+  text-align: center;
+  width: 300px;
+  background-color: #f0f0f0;
+}
+
+aside h2
+{
+  margin-top: 0px;
+  color: #ffffff;
+  height: 50px;
+  background-color: #032D38;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+aside a
+{
+  color: #0f0f0f;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+aside a:hover
+{
+  color: #000;
+  font-size: 20px;
+  text-decoration: underline;
+}
 .advert
 {
-  width: auto;
+  float: left;
+  width: 100%;
   height: 230px;
   text-align: center;
   color: #ffffff;
@@ -82,10 +139,11 @@ section
 
  footer
  {
+   clear: both;
    color: maroon;
    text-align: center;
    font-style: normal;
-   font-size: 17px;
+   font-size: 10px;
  }
  .social_icons
  {
