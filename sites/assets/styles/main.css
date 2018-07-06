@@ -3,7 +3,9 @@ body
 {
   width: 1500px;
   display: inline;
-  background-color: #fff;
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 nav
@@ -18,7 +20,7 @@ nav
 
 nav a
 {
-  color: #C7F803;
+  color: #ffffff;
   text-shadow: #000000;
   font-size: 30px;
 }
@@ -83,7 +85,7 @@ aside
   border-color: #000000;
   text-align: center;
   width: 300px;
-  background-color: #f0f0f0;
+  background-color: #0f0f0f;
 }
 
 aside h2
@@ -98,14 +100,14 @@ aside h2
 
 aside a
 {
-  color: #0f0f0f;
+  color: #f0f0f0;
   font-size: 20px;
   text-decoration: none;
 }
 
 aside a:hover
 {
-  color: #000;
+  color: #fff;
   font-size: 20px;
   text-decoration: underline;
 }
@@ -118,8 +120,7 @@ aside a:hover
   color: #ffffff;
   background: linear-gradient(to right, #2505A5, #8067E5)
 }
-.advert a{ color: #C7F803; }
-
+.advert p{ color: #ffffff; }
 .ad_button
 {
 
