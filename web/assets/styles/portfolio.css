@@ -43,7 +43,6 @@ body
 }
 
 
-
 nav
 {
   text-align: left;
@@ -76,49 +75,42 @@ main
   border-top-left-radius: 10px;
   margin-top: 5px;
   margin-bottom: 1px;
-
 }
 
 section
 {
   color: #ffffff;
-
+  border-radius: 30px;
   margin: 10px;
   background-color: #4A4A4A;
   font-size: 18px;
   font-family: sans-serif;
-  height: auto;
+  height: 250px;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.About
-{
-  border-radius: 30px;
-  height: 500px;
-}
-
-
-article
-{
-  text-align: center;
-  color:  #590404;
-  border-radius: 80px;
-  background-color:#26282B;
-  font-style: italic;
-}
-
-section h2
+section h4
 {
   text-align: center;
   color: #fff;
 }
 
-
-article h2
+section img
 {
-  font-style: normal;
-  color:  #95B6E8;
+  clear: both;
+  float: left;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+section a { color: #87ED6E; }
+.portfolio_info
+{
+  float: right;
+  color:#89E7FF;
+
 }
 
 aside
@@ -137,7 +129,6 @@ aside
 
 footer
 {
-
   clear: both;
   width: 950px;
   text-align: center;
@@ -145,8 +136,6 @@ footer
   color: #ffffff;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
-
-
 }
 
 .social_icons
@@ -154,7 +143,6 @@ footer
   margin-top: 10px;
   border: 10px;
   background-color: #060909;
-
 }
 
 .social_icons:hover
