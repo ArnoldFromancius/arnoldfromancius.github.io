@@ -12,7 +12,7 @@ article,aside,footer,main,nav,header,section
 
 body
 {
-  width: 950px;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
   /*background-color: #ffffff;*/
@@ -24,28 +24,27 @@ body
   font-size: 15px;
   font-family:fantasy;
 }
-.banner
+header
 {
-
   background-color: #0f0f0f;
   color: #ffffff;
   padding: 10px 20px;
+  width: auto;
 }
 
-.me
- {
-   padding-left: 30px;
-  }
+.me{ padding-left: 3%;  }
 .theme
 {
   float: right;
-  position: absolute; top: 10px; left: 550px;
+  width: 60%;
+  height: 275px;
+  margin: auto;
 }
-
 
 nav
 {
-  text-align: left;
+  width: auto;
+  text-align: center;
   margin-top: 1px;
   background-color: #060909;
   padding: 2px;
@@ -70,8 +69,9 @@ li
 main
 {
   float: left;
-  width: 640px;
+  width: 67%;
   background-color:  #060909;
+  border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   margin-top: 5px;
   margin-bottom: 1px;
@@ -115,22 +115,20 @@ section a { color: #87ED6E; }
 
 aside
 {
-
   float: right;
-/*  position: absolute; top: 375px; right: 180px;*/
   color: #ffffff;
   background-color: #060909;
-  width: 260px;
+  width: 25%;
   border-top-right-radius: 10px;
   margin-top: 5px;
   margin-bottom: 10px;
-  padding: 20px;
+  padding: 2%;
 }
 
 footer
 {
   clear: both;
-  width: 950px;
+  width: 100%;
   text-align: center;
   background-color: #060909;
   color: #ffffff;
