@@ -93,10 +93,12 @@ section
 
 h4
 {
+  clear: both;
   text-align: center;
   color: #a0a0a0;
 }
 
+hr{clear: both;}
 main img
 {
   clear: both;
