@@ -3,8 +3,12 @@
  <head>
    <meta charset="utf=8">
    <title>Arnold Fromancius</title>
-   <link rel="stylesheet" href="./web/assets/styles/main.css">
    <link rel="shortcut icon" href="./web/assets/images/icon.png">
+   <link rel="stylesheet" href="./web/assets/styles/css/bootstrap.css">
+   <link rel="stylesheet" href="./web/assets/styles/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./web/assets/styles/main.css">
+   <script src="./web/assets/scripts/bootstrap.js"></script>
+   <script src="./web/assets/scripts/bootstrap.min.js"></script>
    <script type="text/javascript" src="./web/assets/scripts/main.js"></script>
  </head>
 
@@ -13,30 +17,53 @@
      <img src="./web/assets/images/banner.jpg" alt="img" class="theme">
       <div class="div1">
         <h1>ArnoldFromancius</h1>
-        <h2>Computer | Software Engineer~</h2>
+        <h2>Computer Engineer~</h2>
         <img src="./web/assets/images/fromancius.jpg" alt="fromancius" width="200" height="150" class="me">
       </div>
    </header>
 
+   <nav class="navbar navbar-inverse">
 
-   <nav>
-     <ul>
-       <li><a href="./index.html">Home</a></li>
+     <div class="container-fluid">
+       <!--logo-->
+       <div class="navbar-header">
+         <a href="#" class="navbar-brand">Eng. ArnoldFromanciusTembo</a>
+       </div>
+       <!--Menu Items-->
+       <div>
+         <ul class="nav navbar-nav">
+       <li class="active"><a href="../../../index.html">Home</a></li>
        <li><a href="./web/assets/pages/about.html">About</a></li>
-       <li><a href="./web/assets/pages/portfolio.html">Portfolio</a></li>
        <li><a href="./web/assets/pages/resume.html">Resume</a></li>
-     </ul>
+       <li><a href="./web/assets/pages/portfolio.html">Portfolio</a>
+        </ul>
+
+        <!--Curent Time-->
+        <ul class="nav navbar-nav navbar-right">
+          <li style="color: #D091B0;">
+            <script type="text/javascript">
+            document.write ('<span id="date-time">', new Date().toLocaleString(), '<\/span>.')
+            if (document.getElementById) onload = function () {
+            setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50) }
+            </script>
+          </li>
+        </ul>
+
+   </div>
+
    </nav>
 
    <main>
+     <hr>
+     <h1> My Journey as a Computer Systems Engineer <h1>
+       <hr><hr>
      <section>
-           <h2>Hanging with Cruz...</h2>
+           <h2>DS | Algorithms lab...</h2>
        <hr>
        <p>
-         <img src="./web/assets/images/proj2.png" alt="img" width="100%" height="500px">
+         <img src="./web/assets/images/proj2.jpg" alt="img" width="100%" height="500px">
          <br>
-         <em>Lazyin about with the young bro Samuel.</em> As we completed all the races in Need For speed The
-         Run, boredom kicked in... so Sam and I decided to take some selfies... #BRO_THINGS!!!
+         <em>Theres no better way to grasp algorithms and data data structures than implementing them.</em> Datastructures and algorithms Lab... #Lab_Work!!!
 
        <br><br>
        </p>
@@ -44,13 +71,13 @@
 
     </section>
     <section>
-          <h2>Perfect selfie for a perfect weekend-chill...</h2>
+          <h2>Mobile computing Project...</h2>
        <hr>
        <p>
           <img src="./web/assets/images/proj1.jpg" alt="img" width="100%" height="500px">
           <br>
-         <em>What's a better way to a end a fun filled weekend than with a perfect selfie. </em>
-         Had fun, with Shadric, Trave, Aj and the CID... #Weekend_Chillz!!! 
+         <em>Picking up some mobile computing concepts. </em>
+         Working a simple project in mobile computing, results to be posted later... #Projeects!!!
          <br><br>
        </p>
 

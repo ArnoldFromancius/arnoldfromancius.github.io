@@ -3,8 +3,12 @@
  <head>
    <meta charset="utf=8">
    <title>Arnold Fromancius</title>
+   <link rel="stylesheet" href="../styles/css/bootstrap.css">
+   <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
    <link rel="stylesheet" href="../styles/main.css">
    <link rel="shortcut icon" href="../images/icon.png">
+   <script src="../scripts/bootstrap.js"></script>
+   <script src="../scripts/bootstrap.min.js"></script>
    <script src="../scripts/main.js"></script>
  </head>
 
@@ -13,18 +17,38 @@
      <img src="../images/banner.jpg" alt="img"  class="theme">
       <div class="div1">
         <h1>ArnoldFromancius</h1>
-        <h2>Computer | Software Engineer~</h2>
+        <h2>Computer Engineer~</h2>
 
         <img src="../images/fromancius.jpg" alt="fromancius" width="200" height="150" class="me">
    </header>
 
-   <nav>
-     <ul>
+   <nav class="navbar navbar-inverse">
+
+     <div class="container-fluid">
+       <!--logo-->
+       <div class="navbar-header">
+         <a href="#" class="navbar-brand">Eng. ArnoldFromanciusTembo</a>
+       </div>
+       <!--Menu Items-->
+       <div>
+         <ul class="nav navbar-nav">
        <li><a href="../../../index.html">Home</a></li>
-       <li><a href="about.html">About</a></li>
-       <li><a href="portfolio.html">Portfolio</a></li>
+       <li class="active"><a href="about.html">About</a></li>
        <li><a href="resume.html">Resume</a></li>
-     </ul>
+       <li><a href="portfolio.html">Portfolio</a>
+        </ul>
+        <!--Curent Time-->
+        <ul class="nav navbar-nav navbar-right">
+          <li style="color: #D091B0;">
+            <script type="text/javascript">
+            document.write ('<span id="date-time">', new Date().toLocaleString(), '<\/span>.')
+            if (document.getElementById) onload = function () {
+            setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50) }
+            </script>
+          </li>
+        </ul>
+   </div>
+
    </nav>
 
    <main>
@@ -51,6 +75,7 @@
            The projects have helped me grasp the principles of Computer Science
            and Software Engineering in a more than theoretical manner.
            <br><br>
+
          </p>
      </div>
    </main>

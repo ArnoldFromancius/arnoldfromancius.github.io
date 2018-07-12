@@ -3,7 +3,11 @@
  <head>
    <meta charset="utf=8">
    <title>Arnold Fromancius</title>
+   <link rel="stylesheet" href="../styles/css/bootstrap.css">
+   <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
    <link rel="stylesheet" href="../styles/portfolio.css">
+   <script src="../scripts/bootstrap.js"></script>
+   <script src="../scripts/bootstrap.min.js"></script>
    <link rel="shortcut icon" href="../images/icon.png">
    <script src="../scripts/main.js"></script>
  </head>
@@ -14,45 +18,85 @@
      <img src="../images/banner.jpg" alt="img" width="45%" height="30%" class="theme">
       <div class="div1">
         <h1>ArnoldFromancius</h1>
-        <h2>Computer | Software Engineer~</h2>
+        <h2>Computer Engineer~</h2>
         <img src="../images/fromancius.jpg" alt="fromancius" width="200" height="150" class="me">
    </header>
 
-   <nav>
-     <ul>
+   <nav class="navbar navbar-inverse">
+
+     <div class="container-fluid">
+       <!--logo-->
+       <div class="navbar-header">
+         <a href="#" class="navbar-brand">Eng. ArnoldFromanciusTembo</a>
+       </div>
+       <!--Menu Items-->
+       <div>
+         <ul class="nav navbar-nav">
        <li><a href="../../../index.html">Home</a></li>
        <li><a href="about.html">About</a></li>
-       <li><a href="portfolio.html">Portfolio</a></li>
        <li><a href="resume.html">Resume</a></li>
-     </ul>
+       <li class="active"><a href="#">Portfolio</a>
+        </ul>
+        <!--Curent Time-->
+        <ul class="nav navbar-nav navbar-right">
+          <li style="color: #D091B0;">
+            <script type="text/javascript">
+            document.write ('<span id="date-time">', new Date().toLocaleString(), '<\/span>.')
+            if (document.getElementById) onload = function () {
+            setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50) }
+            </script>
+          </li>
+        </ul>
+   </div>
+
    </nav>
 
    <main>
-     <!-- Revival Family of Hope Foundation  SITE-->
+
+     <!--BINARY bROTHERHOOD WEBSITE-->
 
      <section>
-       <h4><u>Revival Family of Hope Foundation website<u></h4>
-       <a href="http://revivalofhope.000webhostapp.com">
+       <h4><u>Binary Brothers website<u></h4>
+       <a href="#">
 
-       <img src="../images/porfolio_imgs/RHF.jpg" alt="revival_of_hope" width="30%" height="200">
+       <img src="../images/porfolio_imgs/binary_brothers.jpg" alt="revival_of_hope" width="30%" height="200">
        </a>
        <div class="portfolio_info">
-         <em>Name:</em> Revival Family of Hope Foundation.
+         <em>Name:</em> Binary Brothers.
          <br><br>
-         <em>Type:</em> Website.
+         <em>Type:</em> Website-Forum.
          <br><br>
-         <em>Technology:</em> HTML,CSS, JScript/Jquerry.
+         <em>Technology:</em> Bootstrap,PHP, MySQL.
          <br><br>
-         <em>Comment:</em> Website coded with plain essentials.
+         <em>Comment:</em> A web forum coded in PHP.
          <br><br>
-         <a href="http://revivalofhope.000webhostapp.com">Link</a>
+         <a href="#">Link</a>
          <br><br>
         </div>
       </section>
-      <br><br>
-      <hr>
-
-
+       <br><br>
+       <hr>
+        <!--BINARY bROTHERHOOD MOBILE APP-->
+          <section>
+          <h4><u>Binary Brothers Mobile App<u></h4>
+            <a href="#">
+              <img src="../images/porfolio_imgs/binary_brothers_mob.jpg" alt="revival_of_hope" width="30%" height="200">
+                </a>
+                <div class="portfolio_info">
+                <em>Name:</em> Binary Brothers.
+                <br><br>
+                <em>Type:</em> Mobile Application.
+                <br><br>
+                <em>Technology:</em> Java-Android Studio,MySQL.
+                <br><br>
+                <em>Comment:</em> Android application.
+                <br><br>
+                <a href="#">Link</a>
+                <br><br>
+                </div>
+                </section>
+                <br><br>
+                <hr>
 
 <!--CATHERINE'S bLOG SITE-->
 
@@ -79,50 +123,31 @@
       <hr>
 
 
-      <!--BINARY bROTHERHOOD WEBSITE-->
 
-      <section>
-        <h4><u>Binary Brothers website<u></h4>
-        <a href="#">
 
-        <img src="../images/porfolio_imgs/binary_brothers.jpg" alt="revival_of_hope" width="30%" height="200">
-        </a>
-        <div class="portfolio_info">
-          <em>Name:</em> Binary Brothers.
-          <br><br>
-          <em>Type:</em> Website-Forum.
-          <br><br>
-          <em>Technology:</em> Bootstrap,PHP, MySQL.
-          <br><br>
-          <em>Comment:</em> A web forum coded in PHP.
-          <br><br>
-          <a href="#">Link</a>
-          <br><br>
-         </div>
-       </section>
-        <br><br>
-        <hr>
+              <!-- Revival Family of Hope Foundation  SITE-->
 
-         <!--BINARY bROTHERHOOD MOBILE APP-->
-             <section>
-               <h4><u>Binary Brothers Mobile App<u></h4>
-               <a href="#">
+              <section>
+                <h4><u>Revival Family of Hope Foundation website<u></h4>
+                <a href="http://revivalofhope.000webhostapp.com">
 
-               <img src="../images/porfolio_imgs/binary_brothers_mob.jpg" alt="revival_of_hope" width="30%" height="200">
-               </a>
-               <div class="portfolio_info">
-                 <em>Name:</em> Binary Brothers.
-                 <br><br>
-                 <em>Type:</em> Mobile Application.
-                 <br><br>
-                 <em>Technology:</em> Java-Android Studio,MySQL.
-                 <br><br>
-                 <em>Comment:</em> Android application.
-                 <br><br>
-                 <a href="#">Link</a>
-                 <br><br>
-                </div>
-              </section>
+                <img src="../images/porfolio_imgs/RHF.jpg" alt="revival_of_hope" width="30%" height="200">
+                </a>
+                <div class="portfolio_info">
+                  <em>Name:</em> Revival Family of Hope Foundation.
+                  <br><br>
+                  <em>Type:</em> Website.
+                  <br><br>
+                  <em>Technology:</em> HTML,CSS, JScript/Jquerry.
+                  <br><br>
+                  <em>Comment:</em> Website coded with plain essentials.
+                  <br><br>
+                  <a href="http://revivalofhope.000webhostapp.com">Link</a>
+                  <br><br>
+                 </div>
+               </section>
+
+
    </main>
 
    <aside>
