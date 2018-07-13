@@ -29,26 +29,36 @@ header
 
 .me{ padding-left: 3%; }
 
-.theme
+#theme
 {
   width: 60%;
   height: 275px;
   margin: auto;
+  padding: 1px;
   float: right;
 }
+.div1{margin-left: 5%;}
 
-
-
-nav
+#navbar
 {
+  position: sticky;
+  top: 0;
   width: auto;
   text-align: center;
+  /*background-color: #060909;*/
   margin-top: 1px;
-  background-color: #060909;
   padding: 2px;
+  background-color: #151515;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 li a
 {
   color: #ffffff;
@@ -79,7 +89,7 @@ main
 h1{ color: #fff; }
 section
 {
-  color: #E998BF;
+  color: #28E573;
   /*color: #39263E;*/
 
   /*margin: 10px;*/
@@ -121,6 +131,19 @@ section
   margin-top: 0%;
 }
 .Resume
+{
+  color: #DB3887;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  background-color: #fff;
+}
+
+.HireMe
 {
   color: #DB3887;
   text-align: center;

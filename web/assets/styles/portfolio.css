@@ -28,20 +28,25 @@ header
 }
 
 .me{ padding-left: 3%;  }
-.theme
+
+#theme
 {
   float: right;
   width: 60%;
   height: 275px;
   margin: auto;
+  padding: 1px;
 }
+.div1{margin-left: 5%;}
 
-nav
+#navbar
 {
+  position: sticky;
+  top: 0;
   width: auto;
   text-align: center;
   margin-top: 1px;
-  background-color: #060909;
+  background-color: #151515;
   padding: 2px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
