@@ -12,6 +12,7 @@ article,aside,footer,main,nav,header,section
 
 body
 {
+
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -70,7 +71,7 @@ main
 {
   float: left;
   width: 67%;
-  background-color:  #060909;
+  background: radial-gradient( #0f0f0f, #060909);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -84,7 +85,6 @@ section
   color: #0;
   border-radius: 30px;
   margin: 10px;
-  /*background-color: #fff;*/
   font-size: 18px;
   font-family: sans-serif;
   height: 250px;
@@ -96,7 +96,7 @@ h4
 {
   clear: both;
   text-align: center;
-  color: #a0a0a0;
+  color: #EDFBFF;
 }
 
 hr{clear: both;}
@@ -108,7 +108,7 @@ main img
   margin-left: 10px;
   margin-bottom: 10px;
 }
-em{color: #505050;}
+em{color: #C0C5C6;}
 
 .portfolio_info a { color: #ffa0a0; }
 
@@ -155,5 +155,5 @@ footer
 .social_icons:hover
 {
   border: 15px;
-  background-color: aqua;
+  background-color: #EDFBFF;
 }
