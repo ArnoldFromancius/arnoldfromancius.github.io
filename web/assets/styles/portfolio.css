@@ -49,6 +49,7 @@ header
 
 @media (max-width: 750px) {
 #theme{width: 0%;}
+.proj_img{width: 90%;}
 }
 
 .div1{margin-left: 5%;}
