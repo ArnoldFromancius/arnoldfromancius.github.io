@@ -14,24 +14,33 @@
  </head>
 
  <body>
-   <header class="banner">
-     <img src="../images/banner.jpg" alt="img"  id="theme">
-      <div class="div1">
-        <h1>ArnoldFromancius</h1>
-        <h2>Software Engineer~</h2>
+   <header >
+     <!--This collapses the banner image on small screens-->
+     <img src="../images/banner.jpg" alt="img" id="theme">
 
-        <img src="../images/fromancius.jpg" alt="fromancius" width="210" height="150" class="me">
+      <div class="div1">
+        <h1 style="font-size: 40px; font-family: arial;">ArnoldFromancius</h1>
+        <h2 style="font-size: 35px; font-family: arial;">~Software Engineer~</h2>
+        <img src="../images/fromancius.jpg" alt="fromancius" class="me" width="250" height="150" >
+      </div>
    </header>
 
    <nav class="navbar navbar-inverse" id="navbar">
 
      <div class="container-fluid">
+
+       <!--TOGGLE | COLLAPSE BUTTON-->
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Collapsable">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
        <!--logo-->
        <div class="navbar-header">
          <a href="hire_me.html" class="navbar-brand">Eng. ArnoldFromanciusTembo</a>
        </div>
        <!--Menu Items-->
-       <div>
+       <div class="collapse navbar-collapse" id="Collapsable">
          <ul class="nav navbar-nav">
        <li><a href="../../../index.html">Home</a></li>
        <li class="active"><a href="about.html">About</a></li>
@@ -53,8 +62,9 @@
    </nav>
 
    <main>
-     <h2 class="abt"> About </h2>
+         <h2 class="abt"> About </h2>
      <div class="About">
+       <br>
        <h2>Background:</h2>
        <hr>
        <p>
@@ -75,7 +85,7 @@
            projects in several platforms including Android, Linux and Microsoft Windows.
            The projects have helped me grasp the principles of Computer Science
            and Software Engineering in a more than theoretical manner.
-           <br><br>
+           <br><br><br>
 
          </p>
      </div>

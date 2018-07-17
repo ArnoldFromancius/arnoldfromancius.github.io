@@ -13,24 +13,34 @@
  </head>
 
  <body>
-   <header class="banner">
-     <img src="../images/banner.jpg" alt="img" width="550" height="270" id="theme">
-      <div class="div1">
-        <h1>ArnoldFromancius</h1>
-        <h2>~Software Engineer~</h2>
+   <header >
+     <!--This collapses the banner image on small screens-->
+     <img src="../images/banner.jpg" alt="img" id="theme">
 
-        <img src="../images/fromancius.jpg" alt="fromancius" width="210" height="150" class="me">
+      <div class="div1">
+        <h1 style="font-size: 40px; font-family: arial;">ArnoldFromancius</h1>
+        <h2 style="font-size: 35px; font-family: arial;">~Software Engineer~</h2>
+        <img src="../images/fromancius.jpg" alt="fromancius" class="me" width="250" height="150" >
+      </div>
    </header>
 
    <nav class="navbar navbar-inverse" id="navbar">
 
      <div class="container-fluid">
+
+       <!--TOGGLE | COLLAPSE BUTTON-->
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Collapsable">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+       <!--logo-->
        <!--logo-->
        <div class="navbar-header">
          <a href="hire_me.html" class="navbar-brand">Eng. ArnoldFromanciusTembo</a>
        </div>
        <!--Menu Items-->
-       <div>
+       <div class="collapse navbar-collapse" id="Collapsable">
          <ul class="nav navbar-nav">
        <li><a href="../../../index.html">Home</a></li>
        <li><a href="about.html">About</a></li>
@@ -93,10 +103,12 @@
 
       </P>
 
-      </div>
-      <button type="button" onclick="download_resume" class="btn btn-primary" style="margin-left: 40%; margin-right: 40px; margin-bottom: 1%;">
+      <button type="button" onclick="download_resume" class="btn btn-primary" style="margin-left: 5%; margin-right: 40px; margin-bottom: 1%;">
         Download as PDF
       </button>
+
+      </div>
+
    </main>
 
    <aside>

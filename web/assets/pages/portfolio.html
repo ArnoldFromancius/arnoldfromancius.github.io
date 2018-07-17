@@ -13,24 +13,33 @@
  </head>
 
  <body>
-   <header class="banner">
+   <header >
+     <!--This collapses the banner image on small screens-->
+     <img src="../images/banner.jpg" alt="img" id="theme">
 
-     <img src="../images/banner.jpg" alt="img" width="45%" height="30%" id="theme">
       <div class="div1">
-        <h1>ArnoldFromancius</h1>
-        <h2>Sofware Engineer~</h2>
-        <img src="../images/fromancius.jpg" alt="fromancius" width="210" height="150" class="me">
+        <h1 style="font-size: 40px; font-family: arial;">ArnoldFromancius</h1>
+        <h2 style="font-size: 35px; font-family: arial;">~Software Engineer~</h2>
+        <img src="../images/fromancius.jpg" alt="fromancius" class="me" width="250" height="150" >
+      </div>
    </header>
 
    <nav class="navbar navbar-inverse" id="navbar">
 
      <div class="container-fluid">
-       <!--logo-->
+
+       <!--TOGGLE | COLLAPSE BUTTON-->
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Collapsable">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+           <!--logo-->
        <div class="navbar-header">
          <a href="hire_me.html" class="navbar-brand">Eng. ArnoldFromanciusTembo</a>
        </div>
        <!--Menu Items-->
-       <div>
+       <div class="collapse navbar-collapse" id="Collapsable">
          <ul class="nav navbar-nav">
        <li><a href="../../../index.html">Home</a></li>
        <li><a href="about.html">About</a></li>
@@ -52,6 +61,30 @@
    </nav>
 
    <main>
+
+     <!-- Revival Family of Hope Foundation  SITE-->
+
+     <section>
+       <h4><u>Revival Family of Hope Foundation website<u></h4>
+       <a href="http://revivalofhope.000webhostapp.com">
+
+       <img src="../images/porfolio_imgs/RHF.jpg" alt="revival_of_hope" width="30%" height="200">
+       </a>
+       <div class="portfolio_info">
+         <em>Name:</em> Revival Family of Hope Foundation.
+         <br><br>
+         <em>Type:</em> Website.
+         <br><br>
+         <em>Technology:</em> HTML,CSS, JScript/Jquerry.
+         <br><br>
+         <em>Comment:</em> Website coded with plain essentials.
+         <br><br>
+         <a href="http://revivalofhope.000webhostapp.com">Link</a>
+         <br><br>
+        </div>
+      </section>
+      <br><br>
+      <hr>
 
      <!--BINARY bROTHERHOOD WEBSITE-->
 
@@ -121,32 +154,6 @@
       </section>
       <br><br>
       <hr>
-
-
-
-
-              <!-- Revival Family of Hope Foundation  SITE-->
-
-              <section>
-                <h4><u>Revival Family of Hope Foundation website<u></h4>
-                <a href="http://revivalofhope.000webhostapp.com">
-
-                <img src="../images/porfolio_imgs/RHF.jpg" alt="revival_of_hope" width="30%" height="200">
-                </a>
-                <div class="portfolio_info">
-                  <em>Name:</em> Revival Family of Hope Foundation.
-                  <br><br>
-                  <em>Type:</em> Website.
-                  <br><br>
-                  <em>Technology:</em> HTML,CSS, JScript/Jquerry.
-                  <br><br>
-                  <em>Comment:</em> Website coded with plain essentials.
-                  <br><br>
-                  <a href="http://revivalofhope.000webhostapp.com">Link</a>
-                  <br><br>
-                 </div>
-               </section>
-
 
    </main>
 

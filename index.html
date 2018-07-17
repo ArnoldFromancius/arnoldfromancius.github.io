@@ -13,24 +13,33 @@
  </head>
 
  <body>
-   <header>
-     <img src="./web/assets/images/banner.jpg" alt="img"  id="theme">
+   <header >
+     <!--This collapses the banner image on small screens-->
+     <img src="./web/assets/images/banner.jpg" alt="img" id="theme">
+
       <div class="div1">
-        <h1>ArnoldFromancius</h1>
-        <h2>Software Engineer~</h2>
-        <img src="./web/assets/images/fromancius.jpg" alt="fromancius" class="me" width="210" height="150" >
+        <h1 style="font-size: 40px; font-family: arial;">ArnoldFromancius</h1>
+        <h2 style="font-size: 35px; font-family: arial;">~Software Engineer~</h2>
+        <img src="./web/assets/images/fromancius.jpg" alt="fromancius" class="me" width="250" height="150" >
       </div>
    </header>
 
    <nav class="navbar navbar-inverse" id="navbar">
 
      <div class="container-fluid">
+
+       <!--TOGGLE | COLLAPSE BUTTON-->
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Collapsable">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
        <!--logo-->
        <div class="navbar-header">
          <a href="./web/assets/pages/hire_me.html" class="navbar-brand">Eng. ArnoldFromanciusTembo</a>
        </div>
        <!--Menu Items-->
-       <div>
+       <div class="collapse navbar-collapse" id="Collapsable">
          <ul class="nav navbar-nav">
        <li class="active"><a href="./index.html">Home</a></li>
        <li><a href="./web/assets/pages/about.html">About</a></li>
