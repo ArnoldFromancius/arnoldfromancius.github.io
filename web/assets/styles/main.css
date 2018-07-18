@@ -15,7 +15,8 @@ body
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: radial-gradient(#f0f0f0, #57595c);
+  /*background: radial-gradient(#f0f0f0, #57595c);*/
+  background: radial-gradient( #fff, #060909);
   font-size: 15px;
   font-family: sans-serif;
 }
@@ -105,26 +106,28 @@ main
 {
   float: left;
   width: 67%;
-  background: radial-gradient( #fff, #060909);
+  background: radial-gradient(  #555, #060909);
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   margin-top: 5px;
   margin-bottom: 1px;
 }
+em{color: #630000;}
 h1{ color: #fff; }
 section
 {
-  color: #28E573;
+  color: #071831;
   /*color: #39263E;*/
   /*margin: 10px;*/
-  background-color: #0f0f0f;
+  /*background-color: #0f0f0f;*/
+  background: radial-gradient(#060909,#fff);
   font-size: 18px;
   font-family: sans-serif;
   height: auto;
-  /*border-top-left-radius: 5%;*/
-  /*border-top-right-radius: 5%;*/
-  /*border-bottom-left-radius: 5%;*/
-  /*border-bottom-right-radius: 5%;*/
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -197,7 +200,7 @@ article
 section h2
 {
   text-align: center;
-  color: #a0a0a0;
+  color: #005522;
 }
 
 
@@ -246,6 +249,6 @@ footer
 
 .social_icons:hover
 {
-  /*border: 15px;*/
+
   background-color: #EDFBFF;
 }

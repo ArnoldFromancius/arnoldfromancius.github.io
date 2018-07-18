@@ -15,9 +15,10 @@ body
 
   width: 100%;
   margin-right: auto;
-  background: radial-gradient(#f0f0f0, #57595c);
+  /*background: radial-gradient(#f0f0f0, #57595c);*/
+  background: radial-gradient( #fff, #060909);
   font-size: 15px;
-  font-family:fantasy;
+  font-family:sans-serif;
 }
 header
 {
@@ -87,7 +88,8 @@ main
   float: left;
   width: 60%;
   margin-left: 5%;
-  background: radial-gradient( #0f0f0f, #060909);
+  /*background: radial-gradient( #0f0f0f, #060909);*/
+  background: radial-gradient(  #555, #060909);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -166,12 +168,10 @@ footer
 .social_icons
 {
   margin-top: 10px;
-  border: 10px;
   background-color: #060909;
 }
 
 .social_icons:hover
 {
-  border: 15px;
   background-color: #EDFBFF;
 }
