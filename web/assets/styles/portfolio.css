@@ -53,6 +53,27 @@ header
 .proj_img{width: 90%;}
 }
 
+@media (max-width: 600px) {
+#theme{width: 0%;}
+}
+
+@media (max-width: 500px) {
+#theme{width: 0%;}
+}
+
+@media (max-width: 400px) {
+#theme{width: 0%;}
+}
+
+
+@media (max-width: 300px) {
+#theme{width: 0%;}
+}
+
+@media (max-width: 200px) {
+#theme{width: 0%;}
+}
+
 .div1{margin-left: 5%;}
 
 #navbar
