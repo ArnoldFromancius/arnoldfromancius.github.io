@@ -156,7 +156,8 @@ section
 
 .About
 {
-  color: #DB3887;
+  /*color: #C33333;#A76604;*/
+  color: #3E4042;
   padding: 7%;
   text-align: center;
   font-size: 18px;
@@ -166,11 +167,12 @@ section
   border-top-right-radius: 10%;
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
-  background-color: #fff;
+  background: radial-gradient(#9BA1A1,#fff);
+  /*background-color: #fff;*/
 }
 .About h2{
   text-align: center;
-  color: #a0a0a0;}
+  color: #263030;}
 
 .abt
 {
@@ -183,7 +185,8 @@ section
 }
 .Resume
 {
-  color: #DB3887;
+  /*color: #DB3887;*/
+  color: #071831;
   text-align: center;
   font-size: 18px;
   font-style: normal;
@@ -192,7 +195,8 @@ section
   border-top-right-radius: 10%;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
-  background-color: #fff;
+  background: radial-gradient(#9BA1A1,#fff);
+  /*background-color: #fff;*/
 }
 
 .HireMe
