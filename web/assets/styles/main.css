@@ -31,10 +31,12 @@ header
 
 .me{
   padding-left: 5%;
+  pointer-events: none;
  }
 
 #theme
 {
+  pointer-events: none;
   width: 60%;
   height: 275px;
   margin: auto;
