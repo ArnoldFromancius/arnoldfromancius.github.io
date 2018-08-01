@@ -41,7 +41,6 @@ header
   pointer-events: none;
 }
 
-.proj_img{pointer-events: none;}
 @media (max-width: 1100px) {
 #theme{width: 40%;}
 #time{display: none;}
