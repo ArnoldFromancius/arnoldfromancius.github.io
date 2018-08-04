@@ -8,7 +8,7 @@
    <link rel="stylesheet" href="../styles/portfolio.css">
    <link rel="shortcut icon" href="../images/icon.png">
    <script src="../scripts/jquery-3.3.1.min.js"></script>
-   <script src="../scripts/bootstrap.js"></script>
+   <!--<script src="../scripts/bootstrap.js"></script>-->
    <script src="../scripts/bootstrap.min.js"></script>
    <script src="../scripts/main.js"></script>
  </head>
@@ -73,9 +73,9 @@
      <section>
        <h4><u>Revival Family of Hope Foundation website<u></h4>
          <br>
-       <a href="http://revivalofhope.000webhostapp.com">
-       <img src="../images/portfolio_imgs/RHF.jpg" alt="revival_of_hope" width="30%" height="200" class="proj_img">
-       </a>
+<a href="#" data-toggle="modal" data-target="#RFHpopup">
+       <img src="../images/portfolio_imgs/RHF.jpg" alt="revival_of_hope" width="30%" height="200" class="proj_img" type="button">
+</a>
        <div class="portfolio_info">
          <em>Name:</em>  Revival of Hope Foundation.
          <br><br>
@@ -91,14 +91,44 @@
       </section>
       <br><br>
       <hr>
-
+<!--RFH pop up-->
+      <div class="modal fade" id="RFHpopup" style="color: #071831;">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!--pop up header-->
+            </header>
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h2 class="modal-title">Revival Family of Hope</h2>
+            </div>
+            <!--pop up body-->
+            <div class="modal-body">
+              <p>A landing site for the Revival Family of Hope Foundation, displaying their projects and accomplishments.</p>
+              <h3 style="text-align: center"> Thumbnails </h3> <hr>
+              <div class="row">
+                <div class="column"><img src="../images/portfolio_imgs/RHF/1.png" class="popupimg"></div>
+                <div class="column"><img src="../images/portfolio_imgs/RHF/2.png" class="popupimg"></div>
+                <div class="column"><img src="../images/portfolio_imgs/RHF/3.png" class="popupimg"></div>
+              </div>
+              <hr>
+              <p> You can visit the site by clicking the button below.</p>
+            </div>
+            <!--pop up footer-->
+            <div class="modal-footer">
+              <form action="http://revivalofhope.000webhostapp.com"  target="_blank">
+                <input type="submit" value="Check it out" class="btn btn-primary"/>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!--Brainworks SITE-->
 
           <section>
-             <h4><u>Brainworks-Technology Website<u></h4>
+             <h4><u>Brainworks-Technology<u></h4>
                <br>
-             <a href="#">
+             <a href="#" data-toggle="modal" data-target="#Brainworkspopup">
              <img src="../images/portfolio_imgs/brainworks-portfolio.jpg" alt="revival_of_hope" width="30%" height="200" class="proj_img">
              </a>
              <div class="portfolio_info">
@@ -116,13 +146,43 @@
             </section>
             <br><br>
             <hr>
-
+<!--Brainworks pop up-->
+                  <div class="modal fade" id="Brainworkspopup" style="color: #071831;">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <!--pop up header-->
+                        </header>
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          <h2 class="modal-title">Brainworks Tech.</h2>
+                        </div>
+                        <!--pop up body-->
+                        <div class="modal-body">
+                          <p>A Personal site containing my finished personal software applications.</p>
+                          <h3 style="text-align: center"> Thumbnails </h3> <hr>
+                          <div class="row">
+                            <div class="column"><img src="../images/portfolio_imgs/BT/1.jpg" class="popupimg"></div>
+                            <div class="column"><img src="../images/portfolio_imgs/BT/2.jpg" class="popupimg"></div>
+                            <div class="column"><img src="../images/portfolio_imgs/BT/3.png" class="popupimg"></div>
+                          </div>
+                          <hr>
+                          <p> You can visit the site by clicking the button below.</p>
+                        </div>
+                        <!--pop up footer-->
+                        <div class="modal-footer">
+                          <form action="http://revivalofhope.000webhostapp.com"  target="_blank">
+                            <input type="submit" value="Check it out" class="btn btn-primary"/>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
      <!--BINARY bROTHERHOOD-->
 
      <section>
        <h4><u>Binary Brothers<u></h4>
          <br>
-       <a href="#">
+       <a href="#" data-toggle="modal" data-target="#bbpopup">
        <img src="../images/portfolio_imgs/binary_brothers.jpg" alt="revival_of_hope" width="30%" height="200" class="proj_img">
        </a>
        <div class="portfolio_info">
@@ -140,6 +200,37 @@
       </section>
        <br><br>
        <hr>
+<!--Binabrother pop up-->
+                         <div class="modal fade" id="bbpopup" style="color: #071831;">
+                           <div class="modal-dialog">
+                             <div class="modal-content">
+                               <!--pop up header-->
+                               </header>
+                               <div class="modal-header">
+                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                 <h2 class="modal-title">BinaryBrohz.</h2>
+                               </div>
+                               <!--pop up body-->
+                               <div class="modal-body">
+                                 <p>My blog site pertaining to Infomation Security. Also habouring a simple Q&A forum.</p>
+                                 <h3 style="text-align: center"> Thumbnails </h3> <hr>
+                                 <div class="row">
+                                   <div class="column"><img src="../images/portfolio_imgs/BB/1.jpg" class="popupimg"></div>
+                                   <div class="column"><img src="../images/portfolio_imgs/BB/2.jpg" class="popupimg"></div>
+                                   <div class="column"><img src="../images/portfolio_imgs/BB/3.jpg" class="popupimg"></div>
+                                 </div>
+                                 <hr>
+                                 <p> You can visit the site by clicking the button below.</p>
+                               </div>
+                               <!--pop up footer-->
+                               <div class="modal-footer">
+                                 <form action="http://localhost"  target="_blank">
+                                   <input type="submit" value="Check it out" class="btn btn-primary"/>
+                                 </form>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
 
 
    </main>
@@ -159,7 +250,7 @@
 
    <footer>
 
-     <ul>
+     <ul class="unstyled">
        <li><a href="www.linkedin.com/in/arnold-fromancius-tembo-72b70a167">
          <img src="../images/social_icons/if_linkedin_2581817.png" width="40" height="40"alt="linkedin" class="social_icons">
        </a></li>
@@ -169,7 +260,7 @@
        <li><a href="www.github.com/arnoldfromancius">
          <img src="../images/social_icons/if_bitbucket_2636363.png" width="40" height="40"alt="github" class="social_icons">
        </a></li>
-       <li><a href="www.twitter.com/arnoldfromancius">
+       <li><a href="www.twitter.com/AFromancius">
          <img src="../images/social_icons/if_twitter_2112797.png" width="40" height="40"alt="github" class="social_icons">
        </a></li>
      </ul>

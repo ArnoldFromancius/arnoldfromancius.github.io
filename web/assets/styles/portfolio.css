@@ -1,4 +1,9 @@
 @charset "utf-8"
+.modal .modal-dialog .modal-content{  background-color: #d4c484; }
+
+<div class="modal fade">
+<div class="modal-dialog" role="document">
+<div class="modal-content">
 article,aside,footer,main,nav,header,section
  {
    display : block;
@@ -119,6 +124,23 @@ li
   /*font-variant: small-caps;*/
   display: inline;
 }
+/* popup images settings */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+.popupimg
+{
+  clear: both;
+  width: 90%;
+}
 
 main
 {
@@ -210,5 +232,5 @@ footer
 
 .social_icons:hover
 {
-  background-color: #EDFBFF;
+  background-color: #060909;
 }
