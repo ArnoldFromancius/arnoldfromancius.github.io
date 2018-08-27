@@ -14,56 +14,55 @@
  </head>
 
  <body>
-   <header >
-     <!--This collapses the banner image on small screens-->
-     <img src="../images/banner.jpg" alt="img" id="theme">
-
-      <div class="div1">
-        <h1 style="font-size: 40px; font-family: arial;">ArnoldFromancius</h1>
-        <h2 style="font-size: 35px; font-family: arial;">~Software Engineer~</h2>
-        <img src="../images/fromancius.jpg" alt="fromancius" class="me" width="250" height="150" >
+   <!--HEADER-->
+ <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" style="text-align: center; background-color: #202020; border-color: #505050; border-radius: 10px; border-style: solid;">
+      <h1 style="font-size: 40px; font-family: arial;">Arnold Fromancius</h1>
+      <h2 style="font-size: 35px; font-family: arial;">~Software Engineer~</h2>
+      <br>
+      <img src="../images/fromancius.jpg" alt="fromancius" class="me img-rounded" width="250" height="175" >
+        </div>
+        <div class="col-md-8">
+          <img src="../images/banner.jpg" alt="img" height="35%"  class="img-responsive img-rounded" style="pointer-events: none;">
+        </div>
       </div>
-   </header>
+    </div>
+ </header>
+ <!--END HEADER-->
 
-   <nav class="navbar navbar-inverse" id="navbar">
+ <!--NAVIGATION BAR-->
+ <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+     <!--TOGGLE | COLLAPSE BUTTON-->
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Collapsable">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+     <!--logo-->
+     <div class="navbar-header">
+       <a href="hire_me.html" class="navbar-brand">Contact: Eng. ArnoldFromanciusTembo</a>
+     </div>
+     <!--Menu Items-->
+     <div class="collapse navbar-collapse" id="Collapsable">
+       <ul class="nav navbar-nav">
+     <li><a href="../../../index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li class="active"><a href="resume.html">Resume</a></li>
+     <li><a href="portfolio.html"> Recent Work</a></li>
 
-     <div class="container-fluid">
+   </ul>
+ </div>
+ </nav>
+<!--END NAVIGATION BAR-->
 
-       <!--TOGGLE | COLLAPSE BUTTON-->
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Collapsable">
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </button>
-       <!--logo-->
-       <!--logo-->
-       <div class="navbar-header">
-         <a href="hire_me.html" class="navbar-brand">Eng. ArnoldFromanciusTembo</a>
-       </div>
-       <!--Menu Items-->
-       <div class="collapse navbar-collapse" id="Collapsable">
-         <ul class="nav navbar-nav">
-       <li><a href="../../../index.html">Home</a></li>
-       <li><a href="about.html">About</a></li>
-       <li class="active"><a href="resume.html">Resume</a></li>
-       <li><a href="portfolio.html">Portfolio</a>
-        </ul>
-        <!--Curent Time-->
-        <ul class="nav navbar-nav navbar-right" id="time">
-          <li style="color: #D091B0;">
-            <script type="text/javascript">
-            document.write ('<span id="date-time">', new Date().toLocaleString(), '<\/span>.')
-            if (document.getElementById) onload = function () {
-            setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50) }
-            </script>
-          </li>
-        </ul>
-   </div>
+<div class="container" style="width: 90%;">
+  <div class="row">
 
-   </nav>
-
-   <main>
-      <div class="Resume">
+    <div class="col-md-8 main_content">
+      <h2 class="abt"> Resume </h2>
+       <div class="Resume">
 
        <p>
          <br><br><br>
@@ -72,6 +71,13 @@
         Email: arnoldfromancius@gmail.com <br>
         LinkedIn URL: www.linkedin.com/in/arnold-fromancius-tembo-72b70a167<br>
         Github URL: www.github.com/arnoldfromancius
+      </p>
+
+      <p>
+        <hr><em>Career Profile</em><br><br>
+        A highly skilled and knowledgeable computer science engineering student with
+        extensive knowledge of programming and computer applications. Looking for an
+        opportunity in the field of information technology as a software engineer.
       </p>
 
       <p>
@@ -120,22 +126,70 @@
       </form>
 
       </div>
+</div>
 
-   </main>
-
+<!-- SideBar-->
+<div class="col-md-4">
    <aside>
+     <div style="text-align: center; font-size: 100%;">
+     <!--Curent Time-->
+         <script type="text/javascript">
+         document.write ('<span id="date-time">', new Date().toLocaleString(), '<\/span>.')
+         if (document.getElementById) onload = function () {
+         setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50) }
+         </script>
+   </div><hr>
+   <!--Contact Info-->
+        <div style="text-align: center; font-size: 20px; background-color: #5a5a5a;">
+          Get in touch with me.
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-12" style="text-align: center; color: #f0f0f0; font-size: 18px;">
+            <img src="../images/fromancius2.jpg" alt="fromancius" class="img-circle img-responsive" width="60%" style="margin-left: 20%; pointer-events: none;">
+            <br>
+            <p>Arnold Fromancius | Software Engineer</p>
+            <p>Email: <a href="mailto:arnoldfromancius@gmail.com">arnoldfromancius@gmail.com</a></p>
+            <p>Phone: +260954835981</p>
+            <p> or leave a message:</p>
+            <br>
 
-     <h4>Check out Brainworks Technology. A cool portal for your software needs.</h4>
-     <a href="./../../../sites/index.html" target="_blank">
+            <form action="https://formspree.io/arnoldfromancius@gmail.com" method="POST">
+                  <input type="email" name="from" placeholder="  Email address..."
+                  style="border-radius: 10px; text-align: center; color: #000;" required><br><br>
+                  <input type="text" name="Message" placeholder="Message..."
+                  style="width: 40%;padding: 3%; margin-left: 3px; border-radius: 30px; text-align: center; color: #000;" required><br><br>
+                <input type="submit" value="Send" class="btn-primary" style="border-radius: 50px; width: 15%; padding: 2px;">
+            </form>
+
+            <br>
+          </div>
+        </div>
+        <hr>
+        <!--Contact Info Ends-->
+
+
+<!--Ad for Sites-->
+<div style="text-align: center; font-size: 20px; background-color: #5a5a5a;">
+  Personal sites and blog.
+</div>
+<hr>
+     <h4>Check out Brainworks-Tech. A site hosting my finished software projects.</h4>
+     <a href="brainworks" target="_blank">
        <img src="../images/brainworks_logo.png" alt="brainworks_logo" width="100%" height="250">
      </a>
      <hr>
-     <h4>Join the Binary Brothers, a small group of hacking enthuisiasts and Penetration testers in Zambia</h4>
+     <h4>Vist Binary-Universe, my personal blog on all things tech.</h4>
      <a href="http://localhost" target="_blank">
        <img src="../images/bios_bros.jpg" alt="brainworks_logo" width="100%" height="250">
      </a>
      <hr>
-   </aside>
+<!--Ad for Sites Ends-->
+     </aside>
+   </div>
+ </div>
+</div>
+<!-- SideBar Ends-->
 
    <footer>
 

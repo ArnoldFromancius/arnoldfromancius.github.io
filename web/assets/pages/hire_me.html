@@ -14,85 +14,73 @@
  </head>
 
  <body>
-   <header >
-     <!--This collapses the banner image on small screens-->
-     <img src="../images/banner.jpg" alt="img" id="theme">
-
-      <div class="div1">
-        <h1 style="font-size: 40px; font-family: arial;">ArnoldFromancius</h1>
-        <h2 style="font-size: 35px; font-family: arial;">~Software Engineer~</h2>
-        <img src="../images/fromancius.jpg" alt="fromancius" class="me" width="250" height="150" >
+   <!--HEADER-->
+ <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" style="text-align: center; background-color: #202020; border-color: #505050; border-radius: 10px; border-style: solid;">
+      <h1 style="font-size: 40px; font-family: arial;">Arnold Fromancius</h1>
+      <h2 style="font-size: 35px; font-family: arial;">~Software Engineer~</h2>
+      <br>
+      <img src="../images/fromancius.jpg" alt="fromancius" class="me img-rounded" width="250" height="175" >
+        </div>
+        <div class="col-md-8">
+          <img src="../images/banner.jpg" alt="img" height="35%"  class="img-responsive img-rounded" style="pointer-events: none;">
+        </div>
       </div>
-   </header>
+    </div>
+ </header>
+ <!--END HEADER-->
 
-   <nav class="navbar navbar-inverse" id="navbar">
+ <!--NAVIGATION BAR-->
+ <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+     <!--TOGGLE | COLLAPSE BUTTON-->
+       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Collapsable">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+     <!--logo-->
+     <div class="navbar-header">
+       <a href="hire_me.html" class="navbar-brand">Contact: Eng. ArnoldFromanciusTembo</a>
+     </div>
+     <!--Menu Items-->
+     <div class="collapse navbar-collapse" id="Collapsable">
+       <ul class="nav navbar-nav">
+     <li><a href="../../../index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="resume.html">Resume</a></li>
+     <li><a href="portfolio.html"> Recent Work</a></li>
 
-     <div class="container-fluid">
+   </ul>
+ </div>
+ </nav>
+<!--END NAVIGATION BAR-->
 
-       <!--TOGGLE | COLLAPSE BUTTON-->
-         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Collapsable">
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-           <span class="icon-bar"></span>
-         </button>
-       <!--logo-->
-       <div class="navbar-header">
-         <a href="hire_me.html" class="navbar-brand">Eng. ArnoldFromanciusTembo</a>
-       </div>
-       <!--Menu Items-->
-       <div class="collapse navbar-collapse" id="Collapsable">
-         <ul class="nav navbar-nav">
-       <li><a href="../../../index.html">Home</a></li>
-       <li><a href="about.html">About</a></li>
-       <li><a href="resume.html">Resume</a></li>
-       <li><a href="portfolio.html">Portfolio</a>
-        </ul>
-        <!--Curent Time-->
-        <ul class="nav navbar-nav navbar-right" id="time">
-          <li style="color: #D091B0;">
-            <script type="text/javascript">
-            document.write ('<span id="date-time">', new Date().toLocaleString(), '<\/span>.')
-            if (document.getElementById) onload = function () {
-            setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50) }
-            </script>
-          </li>
-        </ul>
-   </div>
 
-   </nav>
+<div class="container" style="width: 92%;">
+  <div class="row">
+    <div class="col-md-12">
 
-   <main>
      <div class="HireMe" style="background: radial-gradient( #fff, #060909);">
-       <h1 style="color: #fff; background-color: #0B6BAE; border-top-right-radius: 20px;border-top-left-radius: 20px; padding: 25px;"> Get in touch, say Hi! </h2><br>
-         <img src="../images/hire_me.jpg" alt="ace" class="img-rounded" width="70%" height="600">
+       <h1 style="color: #fff; background-color: #0B6BAE; border-top-right-radius: 5px;border-top-left-radius: 5px; padding: 25px; border-style:ridge; border-color: #000;">
+          Get in touch, say Hi!
+        </h2><br>
+
+         <img src="../images/hire_me.jpg" alt="ace" class="img-rounded" width="70%" height="600" style="border-style:ridge; border-width: thick; border-color: #afafaf; pointer-events: none;">
        <br><br>
        <form action="https://formspree.io/arnoldfromancius@gmail.com" method="POST">
              <input type="email" name="from" placeholder="  Email address..."
-             style="border-radius: 10px; text-align: center;"><br><br>
+             style="border-radius: 10px; text-align: center; color: #000;" required><br><br>
              <input type="text" name="Message" placeholder="Message..."
-             style="width: 40%;padding: 3%; margin-left: 3px; border-radius: 30px; text-align: center;"><br><br>
-
+             style="width: 40%;padding: 3%; margin-left: 3px; border-radius: 30px; text-align: center; color: #000;" required><br><br>
            <input type="submit" value="Send" class="btn-primary" style="border-radius: 50px; width: 15%; padding: 2px;">
        </form>
-
         <br><br><br><br>
        </div>
       </div>
-   </main>
-
-   <aside>
-
-     <h4>Check out Brainworks Technology. A cool portal for your software needs.</h4>
-     <a href="./../../../sites/index.html" target="_blank">
-       <img src="../images/brainworks_logo.png" alt="brainworks_logo" width="100%" height="250">
-     </a>
-     <hr>
-     <h4>Join the Binary Brothers, a small group of hacking enthuisiasts and Penetration testers in Zambia</h4>
-     <a href="http://localhost" target="_blank">
-       <img src="../images/bios_bros.jpg" alt="brainworks_logo" width="100%" height="250">
-     </a>
-     <hr>
-   </aside>
+</div>
+</div>
 
    <footer>
 
