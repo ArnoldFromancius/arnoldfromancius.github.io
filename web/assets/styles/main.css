@@ -80,6 +80,8 @@ li
   background-color:  #101010;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 
@@ -115,7 +117,8 @@ section
   font-family:arial;
   background: radial-gradient(#9BA1A1,#fff);
   width: 100%;
-  /*background-color: #fff;*/
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .About h2{
@@ -143,6 +146,8 @@ section
   font-style: normal;
   font-family:arial;
   background: radial-gradient(#9BA1A1,#fff);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .HireMe
