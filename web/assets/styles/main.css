@@ -68,7 +68,7 @@ li
   margin-left: 1px;
   margin-right: 15px;
   font-size:20px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   /*font-variant: small-caps;*/
   display: inline;
 }
@@ -82,6 +82,7 @@ li
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+
 }
 
 
@@ -123,7 +124,7 @@ section
 
 .About h2{
   text-align: center;
-  color: #263030;
+  color: #005522;
 }
 
 .abt
@@ -215,11 +216,12 @@ footer
 {
   margin-top: 10px;
   background-color: #060909;
+  padding: 2px;
 
 }
 
 .social_icons:hover
 {
-  list-style: none;
-  background-color: #EDFBFF;
+  padding: 0px;
+  background-color: #9f9f9f;
 }

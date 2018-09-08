@@ -5,11 +5,13 @@
    <title>Arnold Fromancius</title>
    <link rel="stylesheet" href="../styles/css/bootstrap.css">
    <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../styles/fonts/css/all.css">
    <link rel="stylesheet" href="../styles/main.css">
    <link rel="shortcut icon" href="../images/icon.png">
+   <script src="../styles/fonts/js/fontawesome.js"></script>
+   <link rel="stylesheet" href="../styles/fonts/css/all.css">
    <script src="../scripts/jquery-3.3.1.min.js"></script>
    <script src="../scripts/bootstrap.js"></script>
-   <script src="../scripts/bootstrap.min.js"></script>
    <script src="../scripts/main.js"></script>
  </head>
 
@@ -17,7 +19,7 @@
 
    <!--HEADER-->
  <header>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-md-4" style="text-align: center; background-color: #202020; border-color: #505050; border-radius: 10px; border-style: solid;">
       <h1 style="font-size: 40px; font-family: arial;">Arnold Fromancius</h1>
@@ -41,17 +43,27 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </button>
-     <!--logo-->
-     <div class="navbar-header">
-       <a href="hire_me.html" class="navbar-brand">Contact: Eng. ArnoldFromanciusTembo</a>
-     </div>
+
      <!--Menu Items-->
      <div class="collapse navbar-collapse" id="Collapsable">
        <ul class="nav navbar-nav">
-     <li><a href="../../../index.html">Home</a></li>
-     <li class="active"><a href="#">About</a></li>
-     <li><a href="resume.html">Resume</a></li>
-     <li><a href="portfolio.html"> Recent Work</a></li>
+
+         <!--logo-->
+         <div class="navbar-header">
+           <a href="hire_me.html" class="navbar-brand">Contact: Eng. Fromancius <i class="fa fa-phone" style="color: orange;"></i></a>
+         </div>
+     <li><a href="../../../index.html">Home <i class="fa fa-home" style="color: aqua;"></i></a></li>
+     <li class="active"><a href="#">About <i class="fa fa-user-graduate" style="color: yellow;"></i></a></li>
+     <li><a href="resume.html">Resume <i class="fa fa-file" style="color: green;"></i></a></li>
+
+     <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-history" style="color: red;"></i> Recent Work <i class="fa fa-caret-down"></i></a>
+
+       <ul class="dropdown-menu" role="menu" style="background-color: #5e5e5e; color: #fff;">
+         <li><a href="recent_work-mobile.html" style="color: #fff;"> Mobile  <i class="fa fa-mobile"></i></a></li>
+         <li><a href="recent_work-web.html" style="color: #fff;"> Web  <i class="fa fa-globe"></i></a></li>
+       </ul>
+     </li>
 
    </ul>
  </div>
@@ -87,13 +99,14 @@
        </p>
        <p>
          My skillset includes full stack web development,
-         Desktop and Mobile application development.
-         I am fluent in multiple computer programming languages, including; C, C++, Java, Python and some Web dev essential languages; PHP, javascript/jquery.
+         Desktop and Mobile application development.<br>
+         I am proficient in multiple computer programming languages, including; C, C++, Java, Python, javascript.
+          With a deep understanding of datastructures-algorithms and their implementations and a keen sense of design.
        </p>
          <p>
            <p>Besides studying, i am working on side
            projects in several platforms including Android, Linux and Microsoft Windows plus Web development. Im also also
-           getting my hands dirty with competitive programming, and basically just living life to the fullest.</p>
+           getting my hands dirty with competitive programming, and basically just living life.</p>
            <br><br><br>
 
          </p>
@@ -164,24 +177,24 @@
  <!-- SideBar Ends-->
 
    <footer>
-     <ul>
-       <li><a href="www.linkedin.com/in/arnold-fromancius-tembo-72b70a167">
+     <div class="row">
+       <div class="col-md-12">
+       <a href="http:///www.linkedin.com/in/arnold-fromancius-tembo-72b70a167">
          <img src="../images/social_icons/if_linkedin_2581817.png" width="40" height="40"alt="linkedin" class="social_icons">
-       </a></li>
-       <li><a href="www.facebook.com/arnold.ace.frost">
+       </a>
+       <a href="http:///www.facebook.com/arnold.ace.frost">
          <img src="../images/social_icons/if_facebook_2581819.png" width="40" height="40" alt="facebook" class="social_icons">
-       </a></li>
-       <li><a href="www.github.com/arnoldfromancius">
+       </a>
+       <li><a href="http:///www.github.com/arnoldfromancius">
          <img src="../images/social_icons/if_bitbucket_2636363.png" width="40" height="40"alt="github" class="social_icons">
-       </a></li>
-       <li><a href="www.twitter.com/AFdromancius">
+       </a>
+       <a href="http:///www.twitter.com/AFromancius">
          <img src="../images/social_icons/if_twitter_2112797.png" width="40" height="40"alt="github" class="social_icons">
-       </a></li>
-     </ul>
+       </a>
+     </div>
+   </div>
      <br>
-
      <p>Email: arnoldfromancius@gmail.com | Phone: +260954835981  | Web: arnoldfromancius.github.io </p>
-
    </footer>
 
  </body>

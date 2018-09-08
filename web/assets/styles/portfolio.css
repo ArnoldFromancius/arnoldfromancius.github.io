@@ -173,10 +173,12 @@ footer
 .social_icons
 {
   margin-top: 10px;
+  padding: 2px;
   background-color: #060909;
 }
 
 .social_icons:hover
 {
-  background-color: #060909;
+  padding: 0px;
+  background-color: #9f9f9f;
 }

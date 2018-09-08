@@ -6,13 +6,11 @@
    <link rel="shortcut icon" href="../images/icon.png">
    <link rel="stylesheet" href="../styles/css/bootstrap.css">
   <link rel="stylesheet" href="../styles/fonts/css/all.css">
-  <!--<link rel="stylesheet" href="./web/assets/styles/css/bootstrap.min.css">-->
    <link rel="stylesheet" href="../styles/main.css">
    <script type="text/javascript" src="../scripts/main.js"></script>
    <script src="../scripts/jquery-3.3.1.min.js"></script>
    <script src="../styles/fonts/js/all.js"></script>
    <script src="../scripts/bootstrap.js"></script>
-   <!-- <script src="./web/assets/scripts/bootstrap.min.js"></script>-->
  </head>
 
  <body>
@@ -53,7 +51,15 @@
        <li class="active"><a href="../../../index.html">Home</a></li>
        <li><a href="../pages/about.html">About</a></li>
        <li><a href="../pages/resume.html">Resume</a></li>
-       <li><a href="../pages/portfolio.html"> Recent Work</a></li>
+
+       <li class="dropdown">
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Recent Work <i class="fa fa-angle-down"></i></a>
+
+         <ul class="dropdown-menu" role="menu" style="background-color: #5e5e5e; color: #fff;">
+           <li><a href="recent_work-mobile.html" style="color: #fff;"> Mobile</a></li>
+           <li><a href="recent_work-web.html" style="color: #fff;"> Web</a></li>
+         </ul>
+       </li>
 
      </ul>
    </div>
@@ -163,26 +169,25 @@
 </div>
 <!-- SideBar Ends-->
 
-   <footer>
-     <ul class="unstyled">
-       <li><a href="http://www.linkedin.com/in/arnold-fromancius-tembo-72b70a167">
-         <img src="../images/social_icons/if_linkedin_2581817.png" width="40" height="40"alt="linkedin" class="social_icons">
-       </a></li>
-       <li><a href="http://www.facebook.com/arnold.ace.frost">
-         <img src="../images/social_icons/if_facebook_2581819.png" width="40" height="40" alt="facebook" class="social_icons">
-       </a></li>
-       <li><a href="http://www.github.com/arnoldfromancius">
-         <img src="../images/social_icons/if_bitbucket_2636363.png" width="40" height="40"alt="github" class="social_icons">
-       </a></li>
-       <li><a href="http://www.twitter.com/AFromancius">
-         <img src="../images/social_icons/if_twitter_2112797.png" width="40" height="40"alt="github" class="social_icons">
-       </a></li>
-     </ul>
-     <br>
-
-     <p>Email: arnoldfromancius@gmail.com | Phone: +260954835981  | Web: arnoldfromancius.github.io </p>
-
-   </footer>
-
+<footer>
+  <div class="row">
+    <div class="col-md-12">
+    <a href="http:///www.linkedin.com/in/arnold-fromancius-tembo-72b70a167">
+      <img src="../images/social_icons/if_linkedin_2581817.png" width="40" height="40"alt="linkedin" class="social_icons">
+    </a>
+    <a href="http:///www.facebook.com/arnold.ace.frost">
+      <img src="../images/social_icons/if_facebook_2581819.png" width="40" height="40" alt="facebook" class="social_icons">
+    </a>
+    <li><a href="http:///www.github.com/arnoldfromancius">
+      <img src="../images/social_icons/if_bitbucket_2636363.png" width="40" height="40"alt="github" class="social_icons">
+    </a>
+    <a href="http:///www.twitter.com/AFromancius">
+      <img src="../images/social_icons/if_twitter_2112797.png" width="40" height="40"alt="github" class="social_icons">
+    </a>
+  </div>
+</div>
+  <br>
+  <p>Email: arnoldfromancius@gmail.com | Phone: +260954835981  | Web: arnoldfromancius.github.io </p>
+</footer>
  </body>
 </html>

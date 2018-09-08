@@ -6,20 +6,18 @@
    <link rel="shortcut icon" href="./web/assets/images/icon.png">
    <link rel="stylesheet" href="./web/assets/styles/css/bootstrap.css">
   <link rel="stylesheet" href="./web/assets/styles/fonts/css/all.css">
-  <!--<link rel="stylesheet" href="./web/assets/styles/css/bootstrap.min.css">-->
    <link rel="stylesheet" href="./web/assets/styles/main.css">
    <script type="text/javascript" src="./web/assets/scripts/main.js"></script>
    <script src="./web/assets/scripts/jquery-3.3.1.min.js"></script>
    <script src="./web/assets/styles/fonts/js/all.js"></script>
    <script src="./web/assets/scripts/bootstrap.js"></script>
-   <!-- <script src="./web/assets/scripts/bootstrap.min.js"></script>-->
  </head>
 
  <body>
    <div class="wrapper">
      <!--HEADER-->
    <header>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-4" style="text-align: center; background-color: #202020; border-color: #505050; border-radius: 10px; border-style: solid;">
         <h1 style="font-size: 40px; font-family: arial;">Arnold Fromancius</h1>
@@ -44,16 +42,25 @@
            <span class="icon-bar"></span>
          </button>
        <!--logo-->
-       <div class="navbar-header">
-         <a href="./web/assets/pages/hire_me.html" class="navbar-brand">Contact: Eng. ArnoldFromanciusTembo</a>
-       </div>
+
        <!--Menu Items-->
        <div class="collapse navbar-collapse" id="Collapsable">
          <ul class="nav navbar-nav">
-       <li class="active"><a href="./index.html">Home</a></li>
-       <li><a href="./web/assets/pages/about.html">About</a></li>
-       <li><a href="./web/assets/pages/resume.html">Resume</a></li>
-       <li><a href="./web/assets/pages/portfolio.html"> Recent Work</a></li>
+           <div class="navbar-header">
+             <a href="./web/assets/pages/hire_me.html" class="navbar-brand">Contact: Eng. Fromancius <i class="fa fa-phone" style="color: orange;"></i></a>
+           </div>
+       <li class="active"><a href="./index.html">Home <i class="fa fa-home" style="color: aqua;"></i></a></li>
+       <li><a href="./web/assets/pages/about.html">About <i class="fa fa-user-graduate" style="color: yellow;"></i></a></li>
+       <li><a href="./web/assets/pages/resume.html">Resume <i class="fa fa-file" style="color: green;"></i></a></li>
+
+       <li class="dropdown">
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-history" style="color: red;"></i> Recent Work  <i class="fa fa-caret-down"></i></a>
+
+         <ul class="dropdown-menu" role="menu" style="background-color: #5e5e5e; color: #fff;">
+           <li><a href="web/assets/pages/recent_work-mobile.html" style="color: #fff;"> Mobile  <i class="fa fa-mobile"></i></a></li>
+           <li><a href="web/assets/pages/recent_work-web.html" style="color: #fff;"> Web  <i class="fa fa-globe"></i></a></li>
+         </ul>
+       </li>
 
      </ul>
    </div>
@@ -73,9 +80,8 @@
        <img src="./web/assets/images/journey.jpg" alt="img" width="100%" height="350px" class="img-responsive img-rounded" style="pointer-events: none;">
         <div style="width: 100%; height: 40px; background: radial-gradient(#3F526E, #020C1B)"></div>
 
-
      <section>
-           <h2>DS & Algorithms lab...</h2>
+           <h2 style="font-size: 200%;"> Timeline </h2>
 
            <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -83,58 +89,57 @@
        <p>
 
          <!-- SlideShow -->
-         
+
 
          <!-- Wrapper for slides -->
-         <div class="carousel-inner">
-           <div class="item active">
-             <img src="./web/assets/images/test.jpg" alt="Los Angeles" width="auto" height="500">
+         <div class="carousel-inner" style="pointer-events: none;">
+           <div class="item">
+             <img src="./web/assets/images/test.jpg" alt="Los Angeles" width="auto" height="700">
            </div>
 
            <div class="item">
-             <img src="./web/assets/images/test0.jpg" alt="Chicago" width="auto" height="500">
+             <img src="./web/assets/images/test0.jpg" alt="Chicago" width="auto" height="700">
            </div>
 
            <div class="item">
-             <img src="./web/assets/images/test1.jpg" alt="New" width="auto" height="500">
+             <img src="./web/assets/images/test1.jpg" alt="New" width="auto" height="700">
+           </div>
+
+           <div class="item  active">
+             <img src="./web/assets/images/test2.jpg" alt="New" width="auto" height="700">
            </div>
          </div>
 
          <!-- Left and right controls -->
          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-           <span class="glyphicon glyphicon-chevron-left"></span>
+           <i class="fa fa-chevron-left" style="margin-top: 190%;"></i>
            <span class="sr-only">Previous</span>
          </a>
+
          <a class="right carousel-control" href="#myCarousel" data-slide="next">
-           <span class="glyphicon glyphicon-chevron-right"></span>
+           <i class="fa fa-chevron-right" style="margin-top: 190%;"></i>
            <span class="sr-only">Next</span>
          </a>
+
        </div>
        <!--End SlideShow-->
-
-         <br>
-         <div style="text-align: center;"><em>Theres no better way to grasp algorithms and data data structures than implementing them.</em><br> Datastructures and algorithms Lab... #Lab_Work!!!</div>
-       <br><br>
-       </p>
-    </section>
-
-    <section>
-          <h2>Mobile computing Project...</h2>
-       <hr>
-       <p>
-          <img src="./web/assets/images/test2.jpg" alt="img" width="100%" height="500px" class="img-responsive">
-          <br>
-         <div style="text-align: center;"><em>Picking up some mobile computing concepts.</em><br>
-         Working a simple project in mobile computing, results to be posted later... #Projeects!!!</div>
+        <hr>
          <br><br>
-       </p>
-     </section>
+         <div style="text-align: center; font-size: 110%;"><b><em>my day to day life as an engineer...</em><br> It's not a career choice. IT'S A LIFESTYLE!!! <font color="#7D064D">#<i>FROMANCIUS</i></font></b></div>
+       <br><br><br>
+      </p>
 
-     <form action="./web/assets/pages/home1.html" method="get" style="text-align: center; color: #0000f0;">
-       <input type="submit" value=" CONTINUE " style="margin-bottom: 10px; border-radius: 30px; width: 20%; padding: 5px;" class="btn-primary">
-     </form>
+    </section>
+<div style="width: 100%; height: 200px;">
+  <br><br><br>
+       <form action="./web/assets/pages/unavailable.html" method="get" style="text-align: center; color: #0000f0; font-size:120%;">
+         <input type="submit" value="Gallery " style="margin-bottom: 10px; border-radius: 30px; width: 25%; padding: 5px;" class="btn-primary">
+       </form>
+</div>
 
  </div>
+
+
 <!-- SideBar-->
 <div class="col-md-4">
    <aside>
@@ -199,24 +204,24 @@
 <!-- SideBar Ends-->
 
    <footer>
-     <ul class="unstyled">
-       <li><a href="http://www.linkedin.com/in/arnold-fromancius-tembo-72b70a167">
+     <div class="row">
+       <div class="col-md-12">
+       <a href="http:///www.linkedin.com/in/arnold-fromancius-tembo-72b70a167">
          <img src="./web/assets/images/social_icons/if_linkedin_2581817.png" width="40" height="40"alt="linkedin" class="social_icons">
-       </a></li>
-       <li><a href="http://www.facebook.com/arnold.ace.frost">
+       </a>
+       <a href="http:///www.facebook.com/arnold.ace.frost">
          <img src="./web/assets/images/social_icons/if_facebook_2581819.png" width="40" height="40" alt="facebook" class="social_icons">
-       </a></li>
-       <li><a href="http://www.github.com/arnoldfromancius">
+       </a>
+       <a href="http:///www.github.com/arnoldfromancius">
          <img src="./web/assets/images/social_icons/if_bitbucket_2636363.png" width="40" height="40"alt="github" class="social_icons">
-       </a></li>
-       <li><a href="http://www.twitter.com/AFromancius">
+       </a>
+       <a href="http:///www.twitter.com/AFromancius">
          <img src="./web/assets/images/social_icons/if_twitter_2112797.png" width="40" height="40"alt="github" class="social_icons">
-       </a></li>
-     </ul>
+       </a>
+     </div>
+     </div>
      <br>
-
      <p>Email: arnoldfromancius@gmail.com | Phone: +260954835981  | Web: arnoldfromancius.github.io </p>
-
    </footer>
 
  </body>
