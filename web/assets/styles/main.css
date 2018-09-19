@@ -85,6 +85,15 @@ li
 
 }
 
+/*Gallery*/
+.gallery_img {
+  style="text-align: center;"
+}
+.gallery_img:hover{
+  opacity: 0.6;
+  transition: .3s ease;
+}
+/*Gallery End*/
 
 em{color: #630000;}
 h1{ color: #fff; }
@@ -176,7 +185,7 @@ article
 section h2
 {
   text-align: center;
-  color: #005522;
+  color: #550022;
 }
 
 
