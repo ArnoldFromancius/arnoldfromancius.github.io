@@ -160,6 +160,12 @@ section
   border-bottom-right-radius: 10px;
 }
 
+.portfolio_img:hover
+{
+  transform: scale(1.07);
+  transition: .3s ease;
+}
+
 .HireMe
 {
   color: #DB3887;

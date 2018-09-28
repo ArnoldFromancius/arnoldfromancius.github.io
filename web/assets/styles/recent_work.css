@@ -43,7 +43,8 @@ header
 
 .proj_img {
   border-radius: 5px;
-  style="text-align: center;"
+  text-align: center;
+  margin-left: 0%;
 }
 .proj_img:hover{
   opacity: 0.6;
@@ -140,6 +141,7 @@ em{color: #C0C5C6;}
 
 .portfolio_info
 {
+  
   float: left;
   color:#fff;
 
