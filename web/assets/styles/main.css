@@ -120,8 +120,8 @@ section
 {
   /*color: #C33333;#A76604;*/
   color: #3E4042;
-  padding: 7%;
-  text-align: center;
+  padding: 7% ;
+  text-align: ;
   font-size: 18px;
   font-style: normal;
   font-family:arial;
@@ -132,8 +132,8 @@ section
 }
 
 .About h2{
-  text-align: center;
-  color: #005522;
+  text-align: ;
+  font-weight: bold;
 }
 
 .abt
