@@ -88,11 +88,29 @@ li
 /*Gallery*/
 .gallery_img {
   style="text-align: center;"
+  width: 50px;
+  height: 175px;
 }
 .gallery_img:hover{
   opacity: 0.6;
   transition: .3s ease;
 }
+
+  #gallery_section
+  {
+    color: #071831;
+    background-color: #464646;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: auto;
+    border-top-left-radius: 1%;
+    border-top-right-radius: 1%;
+    border-bottom-left-radius: 1%;
+    border-bottom-right-radius: 1%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
 /*Gallery End*/
 
 em{color: #630000;}
@@ -115,6 +133,8 @@ section
   padding-left: 5px;
   padding-right: 5px;
 }
+
+
 
 .About
 {
