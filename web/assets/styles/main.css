@@ -13,7 +13,7 @@ article,aside,footer,main,nav,header,section
 
 /* to adjust to smaller screens */
 		@media only screen and (max-width:400px) {
-  #banner {
+  #BANNER {
     display: none;
   }
 }
