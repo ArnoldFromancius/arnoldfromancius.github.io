@@ -10,6 +10,16 @@ article,aside,footer,main,nav,header,section
     margin: 0;
   }
 
+
+/* to adjust to smaller screens */
+		@media only screen and (max-width:400px) {
+  #banner {
+    display: none;
+  }
+}
+/* screen adjustments end*/
+
+
 body
 {
   width: 100%;
