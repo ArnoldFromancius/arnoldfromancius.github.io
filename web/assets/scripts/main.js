@@ -5,6 +5,13 @@
    $("#BANNER").hide();
  }
 
+// Check if the user is accessing the page on a mobile device
+var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 
-     var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
-     if (mobile) {$('#BANNER').hide();}
+if (isMobile) {
+  // User is accessing the page on a mobile device
+  console.log("Mobile device detected");
+} else {
+  // User is accessing the page on a desktop device
+  console.log("Desktop device detected");
+}
