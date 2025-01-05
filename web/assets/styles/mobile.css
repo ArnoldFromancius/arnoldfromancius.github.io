@@ -28,7 +28,6 @@ header
   background-color: #101010;
   text-align: center;
   background-image: url(../images/header_bg.jpg);
-  padding: 10px 20px;
 }
 
 
@@ -58,8 +57,8 @@ li
 
 .main_content
 {
-  padding: 0%;
-  margin-top: 1%;
+ 
+
   background-color:  #101010;
   /*border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -122,8 +121,7 @@ section
 .About
 {
   /*color: #C33333;#A76604;*/
-  color: #3E4042;
-  padding: 7% ;
+  color: #3E4042;  
   text-align: ;
   font-size: 18px;
   font-style: normal;
@@ -149,7 +147,6 @@ section
   border-top-left-radius: 30%;
   border-top-right-radius: 30%;
   /*background-color: #26282a;*/
-  margin-top: 0%;
 }
 .Resume
 {
@@ -209,12 +206,7 @@ aside
   color: #ffffff;
   width: 100%;
   background-color: #060909;
-  /*border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius:  10px;
-  border-bottom-right-radius:  10px;*/
-  margin-top: 3%;
-  padding: 1%;
+ 
 }
 
 footer
