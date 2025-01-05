@@ -11,20 +11,6 @@ article,aside,footer,main,nav,header,section
   }
 
 
-/* to adjust to smaller screens */
-		@media only screen and (max-width:150px) {
-  #BANNER {
-    display: none;
-  }
-}
-@media (min-width: 380px) and (max-width: 420px) {
-  #BANNER{
-      display : none;
-  }
-}
-/* screen adjustments end*/
-
-
 body
 {
   width: 100%;

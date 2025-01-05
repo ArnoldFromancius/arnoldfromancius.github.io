@@ -12,8 +12,12 @@ if (isMobile) {
   // User is accessing the page on a mobile device
   console.log("Mobile device detected");
   document.getElementById('BANNER').style.display = 'none';
+  //document.getElementByTag('header').style.width = '100%';
+  //document.getElementById('navbar').style.width = '100%';
 } else {
   // User is accessing the page on a desktop device
   console.log("Desktop device detected");
   document.getElementById('BANNER').style.display = 'none';
+  //document.getElementByTag('header').style.width = '100%';
+  //document.getElementById('navbar').style.width = '100%';
 }
