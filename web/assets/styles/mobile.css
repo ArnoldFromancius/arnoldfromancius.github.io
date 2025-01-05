@@ -24,17 +24,16 @@ body
 header
 {
   width: auto;
-  //margin-left: 0%;
   color: #fff;
   background-color: #101010;
-  /*background-color: #0f0f0f;*/
+  text-align: center;
+  background-image: url(../images/header_bg.jpg);
   padding: 10px 20px;
 }
 
 
 .me{
   border-style:ridge;
-  margin: 10px;
   pointer-events: none;
  }
 
