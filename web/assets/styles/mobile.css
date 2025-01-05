@@ -47,32 +47,25 @@ li a
   font-size: 20px;
 }
 li
-{
+{/*
   margin-left: 1px;
   margin-right: 15px;
   font-size:20px;
   /*font-weight: bold;*/
   /*font-variant: small-caps;*/
-  display: inline;
+  /*display: inline;*/
 }
 
 .main_content
 {
- 
-
   background-color:  #101010;
-  /*border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  /*border-bottom-right-radius: 10px;*/
-
 }
 
 /*Gallery*/
 .gallery_img {
   style="text-align: center;"
-  width: 50px;
-  height: 175px;
+  width: 500px;
+  height: 300px;
 }
 .gallery_img:hover{
   opacity: 0.6;
@@ -113,8 +106,6 @@ section
   border-top-right-radius: 1%;
   border-bottom-left-radius: 1%;
   border-bottom-right-radius: 1%;
-  padding-left: 5px;
-  padding-right: 5px;
 }
 
 
@@ -170,7 +161,6 @@ section
 .HireMe
 {
   color: #DB3887;
-  padding: %;
   text-align: center;
   font-size: 18px;
   font-style: normal;
