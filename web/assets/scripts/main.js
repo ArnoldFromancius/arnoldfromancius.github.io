@@ -37,6 +37,8 @@ if (isMobile) {
 
   document.getElementById('navbar').style.width = 'auto';
   document.getElementById('navbar').style.marginLeft = 'auto';
+  //document.getElementById('navbar').style.borderBottomRightRadius="0%";
+  //document.getElementById('navbar').style.borderBottomLeftRadius="0%";
 
   document.getElementById('mainContent').style.width = 'auto';
   document.getElementById('mainContent').style.marginLeft = 'auto';
@@ -46,5 +48,7 @@ if (isMobile) {
 
   document.getElementById('Footer').style.width = 'auto';
   document.getElementById('Footer').style.marginLeft = 'auto';
+
+
 
 }
