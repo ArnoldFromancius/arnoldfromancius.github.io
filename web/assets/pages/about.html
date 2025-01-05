@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-   <meta charset="utf-8">
-<meta name="viewport"content="width=device-width, initial-scale=1">
+  <!--redirects to mobile version of site if neccessary-->
+  <script>
+    // Check if the user is accessing the page on a mobile device
+    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    if(isMobile){
+      window.location.replace("../../../mobile.html")
+    }
+   </script> 
+  <meta charset="utf-8">
+   <meta name="viewport"content="width=device-width, initial-scale=1">
    <title>Arnold Fromancius</title>
    <link rel="stylesheet" href="../styles/css/bootstrap.css">
    <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
@@ -203,6 +211,5 @@ I aspire to become as skillful and successful a developer; which is what drives 
      <br>
      <p>Email: arnoldfromancius@gmail.com | Phone: +260764917980  | Web: arnoldfromancius.github.io </p>
    </footer>
-   <script src="../scripts/main.js"></script>
  </body>
 </html>

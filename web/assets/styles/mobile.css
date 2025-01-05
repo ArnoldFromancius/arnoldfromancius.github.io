@@ -31,6 +31,10 @@ header
   padding: 10px 20px;
 }
 
+#BANNER{
+  display: none;
+}
+
 .me{
   border-style:ridge;
   border-width: thick;
@@ -42,19 +46,20 @@ header
 .div1{margin-left: 5%;}
 
 #navbar
-{
+{/*
   position: sticky;
   top: 0;
   width: 90%;
   margin-left: 5%;
 
   text-align: center;
-  /*background-color: #060909;*/
   margin-top: 1px;
   padding: 2px;
   background-color: #010101;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  */
+  display: none;
 }
 
 

@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
+  <!--redirects to mobile version of site if neccessary-->
+  <script>
+    // Check if the user is accessing the page on a mobile device
+    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    if(isMobile){
+      window.location.replace("../../../mobile.html")
+    }
+   </script>
    <meta charset="utf-8">
    <meta name="viewport"content="width=device-width, initial-scale=10">
    <title>Arnold Fromancius</title>
@@ -284,6 +292,5 @@
      <br>
      <p>Email: arnoldfromancius@gmail.com | Phone: +260954835981  | Web: arnoldfromancius.github.io </p>
    </footer>
-   <link rel="stylesheet" href="../styles/main.css">
  </body>
 </html>
