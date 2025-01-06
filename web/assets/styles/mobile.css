@@ -35,7 +35,7 @@ header
 .me{
   border-style: dashed;
   pointer-events: none;
-  margin-bottom: 15%;
+  margin-bottom: 7%;
  }
 
 
@@ -50,7 +50,6 @@ li a
   background-color:  #101010;
   margin-top: 0%;
 }
-
 
 #SlideShow{
   height: auto;
