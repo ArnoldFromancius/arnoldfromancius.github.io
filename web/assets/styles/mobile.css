@@ -28,18 +28,15 @@ header
   background-color: #101010;
   text-align: center;
   background-image: url(../images/header_bg.jpg);
-  margin-bottom: 0%;
+  height: 100vh;
 }
 
 
 .me{
-  border-style:ridge;
+  border-style: dashed;
   pointer-events: none;
   margin-bottom: 15%;
  }
-
-
-
 
 
 li a
@@ -54,33 +51,14 @@ li a
   margin-top: 0%;
 }
 
-/*Gallery*/
-.gallery_img {
-  style="text-align: center;"
-  width: 500px;
-  height: 300px;
-}
-.gallery_img:hover{
-  opacity: 0.6;
-  transition: .3s ease;
-}
 
-  #gallery_section
-  {
-    color: #071831;
-    background-color: #464646;
-    font-size: 18px;
-    font-family: sans-serif;
-    height: auto;
-    border-top-left-radius: 1%;
-    border-top-right-radius: 1%;
-    border-bottom-left-radius: 1%;
-    border-bottom-right-radius: 1%;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-/*Gallery End*/
+#SlideShow{
+  height: auto;
+}
+.slideItem{
+  height: 700px;
+  width: auto;
+}
 
 em{color: #630000;}
 h1{ color: #fff; }
