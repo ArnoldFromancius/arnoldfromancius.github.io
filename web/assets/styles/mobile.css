@@ -13,6 +13,7 @@ article,aside,footer,main,nav,header,section
 
 body
 {
+  overflow-x: hidden;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -78,6 +79,9 @@ section
   border-bottom-right-radius: 1%;
 }
 
+.popupimg{
+  width: 100%;
+}
 
 .HireMe
 {
