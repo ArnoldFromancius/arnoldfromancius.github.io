@@ -1,217 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+
+<head>
   <!--redirects to mobile version of site if neccessary-->
   <script>
     // Check if the user is accessing the page on a mobile device
     var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    if(isMobile){
+    if (isMobile) {
       window.location.replace("../../../mobile.html")
     }
-   </script> 
+  </script>
   <meta charset="utf-8">
-   <meta name="viewport"content="width=device-width, initial-scale=1">
-   <title>Arnold Fromancius</title>
-   <link rel="stylesheet" href="../styles/css/bootstrap.css">
-   <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
-   <link rel="stylesheet" href="../styles/fonts/css/all.css">
-   <link rel="stylesheet" href="../styles/main.css">
-   <link rel="shortcut icon" href="../images/icon.png">
-   <script src="../styles/fonts/js/fontawesome.js"></script>
-   <link rel="stylesheet" href="../styles/fonts/css/all.css">
-   <script src="../scripts/jquery-3.3.1.min.js"></script>
-   <script src="../scripts/bootstrap.js"></script>
- </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arnold Fromancius</title>
+  <link rel="stylesheet" href="../styles/css/bootstrap.css">
+  <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../styles/fonts/css/all.css">
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="shortcut icon" href="../images/icon.png">
+  <script src="../styles/fonts/js/fontawesome.js"></script>
+  <link rel="stylesheet" href="../styles/fonts/css/all.css">
+  <script src="../scripts/jquery-3.3.1.min.js"></script>
+  <script src="../scripts/bootstrap.js"></script>
+</head>
 
- <body>
+<body>
 
-   <!--HEADER-->
- <header id="headerID">
+  <!--HEADER-->
+  <header id="headerID">
     <div class="container-fluid">
-      <div class="row"> 
-        <div class="col-md-4" style="text-align: center; background-image: url(../images/header_bg.jpg); border-color: #505050; border-radius: 10px; border-style: solid;">
-      <h1 style="font-size: 40px; font-family: sans-comic;">Arnold Fromancius</h1>
-      <h2 style="font-size: 35px; font-family: arial; color: yellow;"><b>Software Developer</b></h2>
-      <br>
-      <img src="../images/fromancius.jpg" alt="fromancius" class="me img-rounded" width="250" height="175" >
+      <div class="row">
+        <div class="col-md-4"
+          style="text-align: center; background-image: url(../images/header_bg.jpg); border-color: #505050; border-radius: 10px; border-style: solid;">
+          <h1 style="font-size: 40px; font-family: sans-comic;">Arnold Fromancius</h1>
+          <h2 style="font-size: 35px; font-family: arial; color: yellow;"><b>Software Developer</b></h2>
+          <br>
+          <img src="../images/fromancius.jpg" alt="fromancius" class="me img-rounded" width="250" height="175">
         </div>
         <div class="col-md-8" id="BANNER">
-          <img src="../images/banner.jpg" alt="img" height="35%" class="img-responsive img-rounded" style="pointer-events: none;">
+          <img src="../images/banner.jpg" alt="img" height="35%" class="img-responsive img-rounded"
+            style="pointer-events: none;">
         </div>
       </div>
     </div>
- </header>
- <!--END HEADER-->
+  </header>
+  <!--END HEADER-->
 
- <!--NAVIGATION BAR-->
- <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
-     <!--TOGGLE | COLLAPSE BUTTON-->
-       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Collapsable">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-       </button>
+  <!--NAVIGATION BAR-->
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+    <!--TOGGLE | COLLAPSE BUTTON-->
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Collapsable">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
 
-     <!--Menu Items-->
-     <div class="collapse navbar-collapse" id="Collapsable">
-       <ul class="nav navbar-nav">
+    <!--Menu Items-->
+    <div class="collapse navbar-collapse" id="Collapsable">
+      <ul class="nav navbar-nav">
 
-         <!--logo-->
-         <div class="navbar-header">
-           <a href="contact.html" class="navbar-brand"><b>Contact: Fromancius </b><i class="fa fa-phone" style="color: orange;"></i></a>
-         </div>
-     <li><a href="../../../index.html">Home <i class="fa fa-home" style="color: aqua;"></i></a></li>
-     <li class="active"><a href="#">About <i class="fa fa-user-graduate" style="color: yellow;"></i></a></li>
-     <li><a href="resume.html">Resume <i class="fa fa-file" style="color: green;"></i></a></li>
-    <!-- <li><a href="portfolio.html">Portfolio <i class="fa fa-chart-bar" style="color: pink;"></i></a></li>
--->
-     <li class="dropdown">
-       <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-history" style="color: red;"></i> Recent Projects <i class="fa fa-caret-down"></i></a>
+        <!--logo-->
+        <div class="navbar-header">
+          <a href="contact.html" class="navbar-brand"><b>Contact: Fromancius </b><i class="fa fa-phone"
+              style="color: orange;"></i></a>
+        </div>
+        <li><a href="../../../index.html">Home <i class="fa fa-home" style="color: aqua;"></i></a></li>
+        <li class="active"><a href="#">About <i class="fa fa-user-graduate" style="color: yellow;"></i></a></li>
+        <li><a href="resume.html">Resume <i class="fa fa-file" style="color: green;"></i></a></li>
+        <li><a href="portfolio.html">Portfolio <i class="fa fa-chart-bar" style="color: pink;"></i></a></li>
 
-       <ul class="dropdown-menu" role="menu" style="background-color: #5e5e5e; color: #fff;">
-         <li><a href="recent_work-mobile.html" style="color: #fff;"> Mobile  <i class="fa fa-mobile"></i></a></li>
-         <li><a href="recent_work-web.html" style="color: #fff;"> Web  <i class="fa fa-globe"></i></a></li>
-       </ul>
-     </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-history" style="color: red;"></i>
+            Recent Projects <i class="fa fa-caret-down"></i></a>
 
-   </ul>
- </div>
- </nav>
-<!--END NAVIGATION BAR-->
+          <ul class="dropdown-menu" role="menu" style="background-color: #5e5e5e; color: #fff;">
+            <li><a href="recent_work-mobile.html" style="color: #fff;"> Mobile <i class="fa fa-mobile"></i></a></li>
+            <li><a href="recent_work-web.html" style="color: #fff;"> Web <i class="fa fa-globe"></i></a></li>
+          </ul>
+        </li>
 
-<div class="container" style="width: 90%;">
-  <div class="row">
-    <div class="col-md-8 main_content">
+      </ul>
+    </div>
+  </nav>
+  <!--END NAVIGATION BAR-->
+
+  <div class="container" style="width: 90%;">
+    <div class="row">
+      <div class="col-md-8 main_content">
 
 
 
-         <h2 class="abt"> About </h2>
-     <div class="About">
-       <div style="text-align: center;">
-         <img src="../images/about.jpg" alt="arnoldfromancius" class="img-responsive img-rounded" style="border-style:ridge; border-width: thick; border-color: #afafaf; pointer-events: none;">
-       </div>
-       <br>
-       <div class="row">
-         <div class="col-md-4">
-       <h2 style="color: green;"><u>Background:</u></h2>
-       <p>
-         Technology is something I have been passionate about for as long as I can remember, so it wasn’t a difficult decision to choose IT as a career. 
-       </p>
+        <h2 class="abt"> About </h2>
+        <div class="About">
+          <div style="text-align: center;">
+            <img src="../images/about.jpg" alt="arnoldfromancius" class="img-responsive img-rounded"
+              style="border-style:ridge; border-width: thick; border-color: #afafaf; pointer-events: none;">
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-4">
+              <h2 style="color: green;"><u>Background:</u></h2>
+              <p>
+                Technology is something I have been passionate about for as long as I can remember, so it wasn’t a
+                difficult decision to choose IT as a career.
+              </p>
 
-       <h2 style="color: orange;"><u>Aspirations:</u></h2>
+              <h2 style="color: orange;"><u>Aspirations:</u></h2>
 
-       <p>
-         My keen interest in puzzles and knack for building things led me to pursue software development as my field of inerest.
-I aspire to become as skillful and successful a developer; which is what drives me to constantly learn and sharpen my skill with every opportunity i get.
-       </p>
-     </div>
+              <p>
+                My keen interest in puzzles and knack for building things led me to pursue software development as my
+                field of inerest.
+                I aspire to become as skillful and successful a developer; which is what drives me to constantly learn
+                and sharpen my skill with every opportunity i get.
+              </p>
+            </div>
 
-      <div class="col-md-8">
-       <h2 style="color: yellow;"><u>What am i doing now?</u></h2>
-       <hr>
-       <p>
-         I am currently freelancing; taking up anything that comes my way, trying to build a diverse set of skills.
-       </p>
-       <p>
-         My skillset includes full stack web development,
-         Desktop and Mobile application development.<br>
-         I am proficient in multiple computer programming languages, including; C, C++, Java, Python, javascript.
-          With a deep understanding of datastructures-algorithms and their implementations and a keen sense of design.
-       </p>
-         <p>Im basically just living life a day at a time.</p>
-           <br><br><br>
-         </div>
-       </div>
+            <div class="col-md-8">
+              <h2 style="color: yellow;"><u>What am i doing now?</u></h2>
+              <hr>
+              <p>
+                I am currently freelancing; taking up anything that comes my way, trying to build a diverse set of
+                skills.
+              </p>
+              <p>
+                My skillset includes full stack web development,
+                Desktop and Mobile application development.<br>
+                I am proficient in multiple computer programming languages, including; C, C++, Java, Python, javascript.
+                With a deep understanding of datastructures-algorithms and their implementations and a keen sense of
+                design.
+              </p>
+              <p>Im basically just living life a day at a time.</p>
+              <br><br><br>
+            </div>
+          </div>
 
-         </p>
-     </div>
+          </p>
+        </div>
 
- </div>
- <!-- SideBar-->
- <div class="col-md-4">
-    <aside>
-      <div style="text-align: center; font-size: 100%;">
-      <!--Curent Time
+      </div>
+      <!-- SideBar-->
+      <div class="col-md-4">
+        <aside>
+          <div style="text-align: center; font-size: 100%;">
+            <!--Curent Time
           <script type="text/javascript">
           document.write ('<span id="date-time">', new Date().toLocaleString(), '<\/span>.')
           if (document.getElementById) onload = function () {
           setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50) }
           </script>
           -->
-    </div><hr>
-    <!--Contact Info-->
-         <div style="text-align: center; font-size: 20px; background-color: #5a5a5a;">
-           Get in touch with me.
-         </div>
-         <hr>
-         <div class="row">
-           <div class="col-md-12" style="text-align: center; color: #f0f0f0; font-size: 18px;">
-             <img src="../images/fromancius2.jpg" alt="fromancius" class="img-circle img-responsive" width="60%" style="margin-left: 20%; pointer-events: none;">
-             <br>
-             <p>Arnold Fromancius | Software Developer</p>
-             <p>Email: <a href="mailto:arnoldfromancius@gmail.com">arnoldfromancius@gmail.com</a></p>
-             <p>Phone: +260764917980 </p>
-             <p> or leave a message:</p>
-             <br>
+          </div>
+          <hr>
+          <!--Contact Info-->
+          <div style="text-align: center; font-size: 20px; background-color: #5a5a5a;">
+            Get in touch with me.
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-md-12" style="text-align: center; color: #f0f0f0; font-size: 18px;">
+              <img src="../images/fromancius2.jpg" alt="fromancius" class="img-circle img-responsive" width="60%"
+                style="margin-left: 20%; pointer-events: none;">
+              <br>
+              <p>Arnold Fromancius | Software Developer</p>
+              <p>Email: <a href="mailto:arnoldfromancius@gmail.com">arnoldfromancius@gmail.com</a></p>
+              <p>Phone: +260764917980 </p>
+              <p> or leave a message:</p>
+              <br>
 
-             <form action="https://formspree.io/arnoldfromancius@gmail.com" method="POST">
-                   <input type="email" name="from" placeholder="  Email address..."
-                   style="border-radius: 10px; text-align: center; color: #000;" required><br><br>
-                   <input type="text" name="Message" placeholder="Message..."
-                   style="width: 40%;padding: 3%; margin-left: 3px; border-radius: 30px; text-align: center; color: #000;" required><br><br>
-                 <input type="submit" value="Send" class="btn-primary" style="border-radius: 50px; width: 15%; padding: 2px;">
-             </form>
+              <form action="https://formspree.io/arnoldfromancius@gmail.com" method="POST">
+                <input type="email" name="from" placeholder="  Email address..."
+                  style="border-radius: 10px; text-align: center; color: #000;" required><br><br>
+                <input type="text" name="Message" placeholder="Message..."
+                  style="width: 40%;padding: 3%; margin-left: 3px; border-radius: 30px; text-align: center; color: #000;"
+                  required><br><br>
+                <input type="submit" value="Send" class="btn-primary"
+                  style="border-radius: 50px; width: 15%; padding: 2px;">
+              </form>
 
-             <br>
-           </div>
-         </div>
-         <hr>
-         <!--Contact Info Ends-->
+              <br>
+            </div>
+          </div>
+          <hr>
+          <!--Contact Info Ends-->
 
 
- <!--Ad for Sites-->
- <div style="text-align: center; font-size: 20px; background-color: #5a5a5a;">
-   Recent Projects.
- </div>
- <br>
- <hr>
-      <h4 style="text-align: center;">Web based projects.</h4>
-      <a href="brainworks" target="_blank">
-        <img src="../images/recent_web.png" alt="brainworks_logo" width="100%" height="250">
-      </a>
-      <hr>
-      <h4 style="text-align: center;">Mobile based projects.</h4>
-      <a href="http://localhost" target="_blank">
-        <img src="../images/recent_mobile.png" alt="brainworks_logo" width="100%" height="250">
-      </a>
-      <hr>
-      <br>
- <!--Ad for Sites Ends-->
-      </aside>
+          <!--Ad for Sites-->
+          <div style="text-align: center; font-size: 20px; background-color: #5a5a5a;">
+            Recent Projects.
+          </div>
+          <br>
+          <hr>
+          <h4 style="text-align: center;">Web based projects.</h4>
+          <a href="brainworks" target="_blank">
+            <img src="../images/recent_web.png" alt="brainworks_logo" width="100%" height="250">
+          </a>
+          <hr>
+          <h4 style="text-align: center;">Mobile based projects.</h4>
+          <a href="http://localhost" target="_blank">
+            <img src="../images/recent_mobile.png" alt="brainworks_logo" width="100%" height="250">
+          </a>
+          <hr>
+          <br>
+          <!--Ad for Sites Ends-->
+        </aside>
+      </div>
     </div>
   </div>
- </div>
- <!-- SideBar Ends-->
+  <!-- SideBar Ends-->
 
-   <footer>
-     <div class="row">
-       <div class="col-md-12">
-       <a href="http:///www.linkedin.com/in/arnold-fromancius-tembo-72b70a167">
-         <img src="../images/social_icons/if_linkedin_2581817.png" width="40" height="40"alt="linkedin" class="social_icons">
-       </a>
-       <a href="http:///www.facebook.com/arnold.ace.frost">
-         <img src="../images/social_icons/if_facebook_2581819.png" width="40" height="40" alt="facebook" class="social_icons">
-       </a>
-       <li><a href="http:///www.github.com/arnoldfromancius">
-         <img src="../images/social_icons/if_bitbucket_2636363.png" width="40" height="40"alt="github" class="social_icons">
-       </a>
-       <a href="http:///wa.me/+260764917980">
-         <img src="../images/social_icons/if_twitter_2112797.png" width="40" height="40"alt="github" class="social_icons">
-       </a>
-     </div>
-   </div>
-     <br>
-     <p>Email: arnoldfromancius@gmail.com | Phone: +260764917980  | Web: arnoldfromancius.github.io </p>
-   </footer>
- </body>
+  <footer>
+    <div class="row">
+      <div class="col-md-12">
+        <a href="http:///www.linkedin.com/in/arnold-fromancius-tembo-72b70a167">
+          <img src="../images/social_icons/if_linkedin_2581817.png" width="40" height="40" alt="linkedin"
+            class="social_icons">
+        </a>
+        <a href="http:///www.facebook.com/arnold.ace.frost">
+          <img src="../images/social_icons/if_facebook_2581819.png" width="40" height="40" alt="facebook"
+            class="social_icons">
+        </a>
+        <li><a href="http:///www.github.com/arnoldfromancius">
+            <img src="../images/social_icons/if_bitbucket_2636363.png" width="40" height="40" alt="github"
+              class="social_icons">
+          </a>
+          <a href="http:///wa.me/+260764917980">
+            <img src="../images/social_icons/if_twitter_2112797.png" width="40" height="40" alt="github"
+              class="social_icons">
+          </a>
+      </div>
+    </div>
+    <br>
+    <p>Email: arnoldfromancius@gmail.com | Phone: +260764917980 | Web: arnoldfromancius.github.io </p>
+  </footer>
+</body>
+
 </html>
