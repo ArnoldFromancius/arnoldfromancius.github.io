@@ -135,6 +135,26 @@ footer
   color: #ffffff;
 }
 
+.floating-home-button{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: linear-gradient(135deg, #e3fc04,#222222);
+	color: white;
+	padding: 12px 18px;
+	border-radius: 50px;
+	text-decoration: none;
+	font-weight: bold;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+	transition: transform 0.3s ease;
+	z-index: 1000;
+}
+
+.floating-home-button:hover{
+	transform: scale(1.1);
+}
+	
+	
 .social_icons
 {
   margin-top: 10px;
