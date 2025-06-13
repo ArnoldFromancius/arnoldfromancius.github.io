@@ -18,7 +18,6 @@ body
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  /*background: radial-gradient(#f0f0f0, #57595c);*/
   background: radial-gradient( #fff, #394f4f);
   font-size: 15px;
   font-family: sans-serif;
@@ -49,6 +48,7 @@ li a
 
 .main_content
 {
+  width: 100%;
   background-color:  #101010;
   margin-top: 0%;
 }
