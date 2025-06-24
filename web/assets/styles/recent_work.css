@@ -45,6 +45,7 @@ header
   border-radius: 5px;
   text-align: center;
   margin-left: 0%;
+  scale: 1.2;
 }
 .proj_img:hover{
   opacity: 0.6;
