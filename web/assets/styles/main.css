@@ -19,7 +19,7 @@ body
   /*background: radial-gradient(#f0f0f0, #57595c);*/
   background: radial-gradient( #fff, #060909);
   font-size: 15px;
-  font-family: sans-serif;
+  font-family: nimbus-roman, sans-serif;
 }
 header
 {
